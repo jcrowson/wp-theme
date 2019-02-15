@@ -31,7 +31,7 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <h3 class="pb-0 text-center text-md-left text-muted">Get Tutorials Like These, Each Month...</h3>
+          <h3 class="pb-0 text-center text-md-left text-muted">Get Great Tutorials Like These, Each Month...</h3>
         </div>
       </div>
       <div class="row mt-4">

@@ -2,7 +2,7 @@
         <div class="container">
           <div class="row">
             <div class="col-12 col-md-6 text-muted">
-              <p>Upmostly teaches you web development with JavaScript and React through fun, easy to follow tutorials.</p>
+              <p>Upmostly brings you original React and JavaScript tutorials each week. Learn React and JavaScript the right way.</p>
             </div>
             <div class="col-12 col-md-6">
               <p>Get our monthly newsletter, packed full of the latest React tutorials, delivered straight to your inbox.</p>
