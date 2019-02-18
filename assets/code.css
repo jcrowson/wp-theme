@@ -23,6 +23,19 @@ blockquote {
   color: #165c26;
   background-color: #dcffe4;
   border: 1px solid rgba(27,31,35,.15);
+  border-left: 10px solid #96f1b5;
+  border-radius: 3px;
+}
+
+blockquote::before {
+  content: "🔥 Tip";
+  font-size: 14px;
+  font-weight: 600;
+  opacity: .7;
+}
+
+blockquote p {
+  margin-bottom: 0;
 }
 
 li {
