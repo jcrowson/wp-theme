@@ -5,7 +5,11 @@
   <section class="jumbotron post-hero-banner text-center">
     <div class="container container-small">
       <h1 class="jumbotron-heading"><?php the_title() ?></h1>
-      <p class="author-date lead"><?php the_date() ?> / <a href="#comments">Leave a comment</a></p>
+      <div class="author text-muted mb-3">
+        <img class="rounded-circle mr-2" src="https://upmostly.com/wp-content/uploads/james-headshot.jpg" />
+        James King
+      </div>
+      <p class="author-date lead mb-2"><?php the_date() ?> / <a href="#comments">Leave a comment</a></p>
     </div>
   </section>
 
