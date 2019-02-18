@@ -285,6 +285,13 @@ footer {
   padding-top: 20px;
 }
 
+.monthly-newsletter-box {
+  border: 1px #E7EEF2 solid;
+  border-radius: 3px;
+  background: #F5F8FA;
+  padding: 2rem;
+}
+
 header {
   position: fixed;
   top: 0;

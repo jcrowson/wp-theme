@@ -29,23 +29,22 @@
     <div class="container container-small">
       <hr />
       <div class="row my-4">
-        <div class="col text-center">
-          <div class="alert alert-primary" role="alert">
-            <h3 class="mt-2">Hey, you! Want more tutorials like this?</h3>
-            Why not subscribe to our newsletter and get more tutorials (like this one), delivered straight to your inbox.
+        <div class="monthly-newsletter-box text-center">
+          <div class="col">
+            <h2 class="mt-0 pt-0">📮 Join the Newsletter</h2>
+            Subscribe to get more great React tutorials (like this one), delivered straight to your inbox.
           </div>
           <form action="https://wplogic.us18.list-manage.com/subscribe/post?u=7806e537fd7c0d111ed32b4a6&amp;id=c4ae659733" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" validate>
-            <div class="input-group mb-3">
+            <div class="input-group my-3">
               <input type="email" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Your Email Address" required>
               <div class="input-group-append">
-                <button class="btn btn-primary" type="submit">Join Newsletter</button>
+                <button class="btn btn-primary" type="submit">Subscribe</button>
               </div>
             </div>
-            <small>We'll only ever send you our latest tutorials each month, nothing more. Not like those idiots at Wayfair who send you fifty-million emails a day about their latest sale, ugh.</small>
+            <small>Zero spam, just great content. Unsubscribe at <i>any</i> time.</small>
           </form>
         </div>
       </div>
-      <hr />
     </div>
 
     <div class="container">
