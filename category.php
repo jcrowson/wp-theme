@@ -9,7 +9,7 @@
         </div>
       </div>
       <div class="row mt-4">
-        <?php include('react-tutorials.php') ?>
+        <?php include('all-react-tutorials.php') ?>
       </div>
     </div>
   </div>
