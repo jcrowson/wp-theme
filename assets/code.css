@@ -83,7 +83,7 @@ footer a:hover {
 }
 
 .container-small {
-  max-width: 580px;
+  max-width: 680px;
 }
 
 h1 {
@@ -242,6 +242,9 @@ footer {
 }
 
 /* Blocks */
+.wp-block-image {
+  text-align: center;
+}
 
 .wp-block-image img {
   max-width: 100%;
