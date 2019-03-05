@@ -15,7 +15,7 @@
   </section>
   <div class="album mt-2 pb-5 bg-light">
     <div class="container">
-      <div class="row">
+      <div class="row pt-5">
         <?php include('featured-posts.php') ?>
       </div>
       <div class="row">
