@@ -13,10 +13,6 @@ a:hover {
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 }
 
-.upmostly-block {
-  font-family: sans-serif;
-}
-
 blockquote {
   width: 100%;
   padding: 1.2em;
@@ -93,7 +89,7 @@ h1 {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
   font-weight: 700;
   padding: 2rem 0 1rem 0;
 }
