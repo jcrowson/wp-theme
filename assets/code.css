@@ -83,29 +83,42 @@ footer a:hover {
 }
 
 h1 {
-  font-size: 1.5rem;
+  font-size: 1.2rem;
   font-weight: 700;
   padding-bottom: 1rem;
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   font-weight: 700;
   padding: 2rem 0 1rem 0;
 }
 
 h3 {
-  font-size: 1.4rem;
+  font-size: 1.2rem;
   margin: 2.5rem 0 1rem 0;
 }
 
 .hero-banner h2 {
-  font-size: 1.4rem;
+  font-size: 1.0rem;
   font-weight: 400;
 }
 
 .jumbotron {
   padding: 6.5rem 0 .5rem 0 !important;
+}
+
+.floating-wrapper {
+  height: 100%;
+}
+
+.floating-related-post {
+  position: sticky;
+  right: 0;
+  width: 50%;
+  top: 160px;
+  float: right;
+  margin-right: 50px;
 }
 
 @media (min-width: 768px) {
@@ -127,7 +140,7 @@ h3 {
     padding-bottom: 1rem;
   }
   .hero-banner h2 {
-    font-size: 1.8rem;
+    font-size: 1.2rem;
     font-weight: 400;
   }
   nav .links a {
@@ -174,7 +187,6 @@ p {
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   border: none;
   min-height: 330px;
-  cursor: pointer;
 }
 
 .card:hover {
@@ -182,11 +194,7 @@ p {
   transform: translate(0, -5px);
 }
 
-.card a {
-  text-decoration: none;
-}
-
-.card-title {
+.card-title a {
   color: #222;
   font-size: 1.2rem;
   line-height: 1.8rem;
@@ -197,8 +205,12 @@ p {
   padding-bottom: 2rem;
 }
 
-.card-body a:hover {
-  color: black;
+.card a {
+  color: #000;
+}
+
+.card-body {
+  padding: 1.2rem !important;
 }
 
 .card-foot {
@@ -214,6 +226,15 @@ p {
 footer {
   color: white;
   background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+}
+
+.badge {
+  padding: .4rem;
+  font-size: .8rem;
+}
+
+.badge-featured {
+  background: #637ad1;
 }
 
 /* Block Cards */
