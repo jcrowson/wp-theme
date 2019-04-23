@@ -1,7 +1,7 @@
 <?php
 
 $comment_form_args = array(
-  'title_reply' => __( 'Write a response' ),
+  'title_reply' => __( '💬 Leave a comment' ),
 	'comment_field' =>
   '<div id="comments" class="form-group">
     <textarea class="form-control" id="comment" name="comment" rows="3"></textarea>
