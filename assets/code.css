@@ -9,10 +9,6 @@ a:hover {
   text-decoration: underline;
 }
 
-.btn:hover {
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
-}
-
 blockquote {
   width: 100%;
   padding: 1.2em;
@@ -115,10 +111,9 @@ h3 {
 .floating-related-post {
   position: sticky;
   right: 0;
-  width: 50%;
-  top: 160px;
+  width: 80%;
+  top: 80px;
   float: right;
-  margin-right: 50px;
 }
 
 @media (min-width: 768px) {
@@ -135,7 +130,7 @@ h3 {
 
 @media (min-width: 992px) {
   h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 700;
     padding-bottom: 1rem;
   }
@@ -161,11 +156,11 @@ h4 {
 
 .btn {
   font-weight: 600;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .author {
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 
 .author img {
@@ -251,7 +246,6 @@ footer {
 
 .block-img-top {
   height: 120px;
-  width: 100%;
   object-fit: cover;
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
@@ -322,7 +316,7 @@ header {
   top: 0;
   left: 0;
   background: #fff;
-  z-index: 1;
+  z-index: 3;
   width: 100%;
   border-bottom: 2px solid #eee;
   font-size: .85rem;
@@ -444,5 +438,15 @@ header {
 }
 
 .featured-card-img {
+  max-width: 100%;
   border-radius: calc(.25rem - 1px);
+}
+
+.related-tutorial-card-img {
+  height: 150px;
+  border-radius: calc(.25rem - 1px);
+}
+
+.card-img-top {
+  width: 100%;
 }
