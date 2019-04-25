@@ -31,11 +31,11 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <h3 class="pb-0 text-center text-md-left text-muted">Get great tutorials like these...</h3>
+          <h3 class="pb-0 text-center text-md-left text-muted">Get great tutorials like these, every month</h3>
         </div>
       </div>
       <div class="row mt-4">
-        <?php include('all-react-tutorials.php') ?>
+        <?php include('Components/all-react-tutorials.php') ?>
       </div>
     </div>
   </div>
