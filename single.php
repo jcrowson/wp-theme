@@ -17,12 +17,12 @@
     <div class="content">
       <div class="container">
         <div class="row d-flex justify-content-center">
-          <div class="col-sm-12 col-md-12 col-xl-6">
+          <div class="col-sm-12 col-md-12 col-xl-7">
             <?php the_content(); ?>
             <?php endwhile; else : ?>
             <?php endif; ?>
           </div>
-          <div class="d-none d-xl-block col-xl-4">
+          <div class="d-none d-xl-block col-xl-3">
             <div class="floating-wrapper">
               <div class="floating-related-post">
                 <span class="text-muted">
@@ -57,7 +57,7 @@
             <div class="input-group my-3">
               <input type="email" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Your Email Address" required>
               <div class="input-group-append">
-                <button class="btn btn-primary" type="submit" onClick="ga('send', 'event', 'cta', 'Click', 'In Page Newsletter', '0');">Subscribe</button>
+                <button class="btn btn-primary" type="submit" onClick="gtag('event', 'join', { 'event_category': 'newsletter', 'event_label': 'single page' });">Subscribe</button>
               </div>
             </div>
             <small>Zero spam, just great content. Unsubscribe at <i>any</i> time.</small>

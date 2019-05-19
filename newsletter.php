@@ -18,7 +18,7 @@
             <div class="input-group mb-3">
               <input type="email" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Your Email Address" required>
               <div class="input-group-append">
-                <button class="btn btn-primary" type="submit">Sign Up 👍</button>
+                <button class="btn btn-primary" type="submit" onClick="gtag('event', 'join', { 'event_category': 'newsletter', 'event_label': 'newsletter page' });">Sign Up 👍</button>
               </div>
             </div>
           </form>
