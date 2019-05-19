@@ -38,10 +38,10 @@
                 </a>
             </div>
             <div class="extra">
-                <a href="https://twitter.com/upmostlyhq" target="_blank" "gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'twitter' });">
+                <a href="https://twitter.com/upmostlyhq" target="_blank" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'twitter' });">
                     <i class="fab fa-twitter"></i>
                 </a>
-                <a href="https://github.com/upmostly" target="_blank" "gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'github' });">
+                <a href="https://github.com/upmostly" target="_blank" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'github' });">
                     <i class="fab fa-github"></i>
                 </a>
             </div>
