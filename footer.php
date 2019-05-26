@@ -17,6 +17,12 @@
             </div>
             <div class="col-12 text-muted">
               <small>Copyright &copy; 2018 – <?php echo date('Y'); ?> Upmostly</small>
+              |
+              <small>
+                <a href="/privacy" target="_blank" class="text-muted text-small">
+                  Privacy
+                </a>
+              </small>
             </div>
           </div>
         </div>
