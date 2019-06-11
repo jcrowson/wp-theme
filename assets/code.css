@@ -453,7 +453,3 @@ header {
 .card-img-top {
   width: 100%;
 }
-
-.better-code-block .dark code[class*="language-"], .better-code-block .dark pre[class*="language-"] {
-  font-family: Monaco, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", "Courier New", Courier, monospace !important;
-}
