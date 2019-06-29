@@ -30,19 +30,13 @@ blockquote p {
   margin-bottom: 0;
 }
 
-li {
-  padding: .5rem 0;
-  font-size: 1.1rem;
-}
-
 footer a {
   color: white;
-  text-decoration: underline;
 }
 
 footer a:hover {
-  color: white;
-  text-decoration: underline;
+  color: #c0bec2;
+  text-decoration: none;
 }
 
 .hero-banner {
@@ -79,7 +73,7 @@ footer a:hover {
 }
 
 h1 {
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 700;
   padding-bottom: 1rem;
 }
@@ -116,6 +110,18 @@ h3 {
 }
 
 @media (min-width: 768px) {
+  p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+    margin-bottom: 1.6rem;
+  }
+  li {
+    padding: .5rem 0;
+    font-size: 1.1rem;
+  }
+  .author-block img {
+    width: 40px;
+  }
   h1 {
     font-size: 1.5rem;
     font-weight: 700;
@@ -138,7 +144,7 @@ h3 {
     font-weight: 400;
   }
   nav .links a {
-    font-size: 1.1rem;
+    font-size: 1rem;
     margin-right: .1rem;
     padding: .5rem 1.1rem;
   }
@@ -158,22 +164,12 @@ h4 {
   font-size: 1rem;
 }
 
-.author {
+.author-block {
   font-size: 1rem;
-}
-
-.author img {
-  width: 40px;
 }
 
 .author-date {
   font-size: 1rem;
-}
-
-p {
-  font-size: 1.1rem;
-  line-height: 1.8;
-  margin-bottom: 1.6rem;
 }
 
 .card {
@@ -375,6 +371,7 @@ header {
 .navbar-brand {
   padding: 0;
   margin-right: 0;
+  font-size: 1rem;
 }
 
 .navbar-brand a img {
@@ -393,25 +390,26 @@ header {
 }
 
 .nav .links a {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-right: .1rem;
   padding: .5rem 1.1rem;
 }
 
 .nav .links a:hover {
   background: #f2f2f2;
+  border-radius: 3px;
 }
 
 .links .about {
-  color: #dc3545;
+  color: #5ad8b1;
 }
 
 .links .newsletter {
-  color: #6f47a9
+  color: #3690f1
 }
 
 .links .tutorials {
-  color: #17a2b8;
+  color: #65b6cc;
 }
 
 /* Extra */
@@ -421,6 +419,19 @@ header {
 }
 
 @media (max-width: 600px) {
+  p {
+    font-size: 1rem;
+  }
+
+  li {
+    padding: .5rem 0;
+    font-size: 1rem;
+  }
+
+  .author-block img {
+    width: 30px;
+  }
+
   .navbar-brand {
     font-size: 1.0rem;
   }
@@ -428,12 +439,15 @@ header {
   .nav .links {
     order: 2;
   }
+
   .nav .links a {
     font-size: .9rem;
   }
+
   .nav .extra a {
     font-size: 1rem;
   }
+
 }
 
 .featured-card {
@@ -452,4 +466,9 @@ header {
 
 .card-img-top {
   width: 100%;
+}
+
+.highlight {
+  color: black;
+  font-weight: 600;
 }
