@@ -26,7 +26,7 @@
       <div class="row my-4">
         <div class="monthly-newsletter-box text-center">
           <div class="col">
-            <h2 class="mt-0 pt-0">📮 Join the Upmostly Newsletter</h2>
+            <h2 class="mt-0 pt-0">📬 Join the Upmostly Newsletter</h2>
             Get one email a month, packed with our latest React tutorials, delivered straight to your inbox.
           </div>
           <form action="https://wplogic.us18.list-manage.com/subscribe/post?u=7806e537fd7c0d111ed32b4a6&amp;id=c4ae659733" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" validate>

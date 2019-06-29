@@ -1,7 +1,7 @@
-      <footer class="py-5">
+      <footer class="py-3 py-md-5">
         <div class="container">
           <div class="row">
-            <div class="col-12 col-md-6 text-muted">
+            <div class="col-12 col-md-6 text-muted my-3 my-md-0">
               Upmostly brings you original React and JavaScript tutorials each week. Level up your React skills.
             </div>
             <div class="col-12 col-md-6">
@@ -15,7 +15,7 @@
                 </div>
               </form>
             </div>
-            <div class="col-12">
+            <div class="col-12 my-3 my-md-0">
               <a href="/privacy" target="_blank">
                 Privacy
               </a>

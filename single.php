@@ -25,20 +25,37 @@
             </div>
             <div class="d-none d-xl-block col-xl-3">
               <div class="floating-wrapper">
+                  <div class="sidebar-newsletter mb-4">
+                    <span class="text-muted">
+                     📬 Monthly React Newsletter
+                    </span>
+                    <form action="https://wplogic.us18.list-manage.com/subscribe/post?u=7806e537fd7c0d111ed32b4a6&amp;id=c4ae659733" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" validate>
+                      <div class="input-group mt-3 mb-2">
+                        <input type="email" class="form-control form-control-sm" name="EMAIL" id="mce-EMAIL" placeholder="Your Email" required>
+                        <div class="input-group-append">
+                          <button class="btn btn-sm btn-primary" type="submit" onClick="gtag('event', 'join', { 'event_category': 'newsletter', 'event_label': 'single page' });">Subscribe</button>
+                        </div>
+                      </div>
+                    </form>
+                    <small class="text-muted">Don't miss out on the latest React tutorials! Unsubscribe at <i>any</i> time.</small>
+                  </div>
                 <div class="floating-related-post">
-                  <span class="text-muted">
-                    Related Tutorials 👇
-                  </span>
+                  <div class="text-muted mb-3">
+                    💻 More React Tutorials
+                  </div>
                     <?php
                       $post_objects = get_field('related_tutorials');
                       if( $post_objects ): ?>
                           <?php foreach( $post_objects as $post): // variable must be called $post (IMPORTANT) ?>
                               <?php setup_postdata($post); ?>
-                              <?php include('Components/related-tutorial-card.php'); ?>
+                              <?php include('Components/related-tutorial-link.php'); ?>
                           <?php endforeach; ?>
                           <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
                       <?php endif;
                     ?>
+                  <a href="/tutorials" style="    color: #64b6cd;">
+                    <small><i class="fab fa-react mr-1 tutorials"></i> All React Tutorials</small>
+                  </a>
                 </div>
               </div>
             </div>
@@ -50,7 +67,7 @@
         <div class="row my-4">
           <div class="monthly-newsletter-box text-center">
             <div class="col">
-              <h2 class="mt-0 pt-0">📮 The Monthly Upmostly Newsletter</h2>
+              <h2 class="mt-0 pt-0">📬 The Monthly Upmostly Newsletter</h2>
               One email a month, packed with the latest React tutorials, delivered straight to your inbox.
             </div>
             <form action="https://wplogic.us18.list-manage.com/subscribe/post?u=7806e537fd7c0d111ed32b4a6&amp;id=c4ae659733" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" validate>
@@ -68,7 +85,7 @@
       <div class="container d-xl-none">
         <div class="row">
           <div class="col text-muted">
-            <h3>👉 Related Tutorials</h3>
+            <h3>More React Tutorials 💻</h3>
           </div>
         </div>
         <div class="row mt-2 mb-5">

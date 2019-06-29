@@ -109,6 +109,15 @@ h3 {
   float: right;
 }
 
+.sidebar-newsletter {
+  right: 0;
+  top: 0;
+  background: #f1f1f1;
+  padding: 1rem;
+  border-radius: 3px;
+  text-align: center;
+}
+
 @media (min-width: 768px) {
   p {
     font-size: 1.1rem;
@@ -157,11 +166,6 @@ h4 {
   margin-bottom: 1rem;
   padding-bottom: .3rem;
   border-bottom: 1px solid #dcdcdc;
-}
-
-.btn {
-  font-weight: 600;
-  font-size: 1rem;
 }
 
 .author-block {
