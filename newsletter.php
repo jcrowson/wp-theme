@@ -6,23 +6,26 @@
   <section class="jumbotron d-flex justify-content-between align-items-center hero-banner hero-banner-blog">
     <div class="container">
       <div class="row">
-        <div class="col-md-12 text-center">
-          <h1>The Best React Tutorials, Packed into One Monthly Newsletter</h1>
+        <div class="col-12 text-center">
+          <img style="width: 200px;" src="https://upmostly.com/wp-content/uploads/react-newsletter-mailbox.png" alt="A mailbox with two letters, showing React logos" />
+        </div>
+        <div class="col-12 col-md-8 offset-md-2 mt-3 text-center">
+          <h1>A Monthly React Newsletter, Packed With Tutorials</h1>
           <h2 class="pt-0 pb-0 mb-0 d-none d-md-block">
-            Get our latest tutorials sent straight to your inbox each month.
+            Join 100s of other devs who get our latest React tutorials, every month, straight to their inbox.
           </h2>
         </div>
-        <div class="col-12 text-center mt-0 mt-md-5">
-          <p class="d-block d-md-none">Get our latest tutorials sent straight to your inbox each month.</p>
+        <div class="col-12 col-md-6 offset-md-3 text-center mt-0 mt-md-4">
+          <p class="d-block d-md-none">Join 100s of other devs who get our latest React tutorials, every month, straight to their inbox.</p>
           <form action="https://wplogic.us18.list-manage.com/subscribe/post?u=7806e537fd7c0d111ed32b4a6&amp;id=c4ae659733" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" validate>
             <div class="input-group mb-3">
-              <input type="email" class="form-control" name="EMAIL" id="mce-EMAIL" placeholder="Your Email Address" required>
+              <input type="email" class="form-control form-control-sm" name="EMAIL" id="mce-EMAIL" placeholder="Your Email Address" required>
               <div class="input-group-append">
-                <button class="btn btn-primary" type="submit" onClick="gtag('event', 'join', { 'event_category': 'newsletter', 'event_label': 'newsletter page' });">Sign Up 👍</button>
+                <button class="btn btn-sm btn-primary" type="submit" onClick="gtag('event', 'join', { 'event_category': 'newsletter', 'event_label': 'newsletter page' });">Sign Me Up!</button>
               </div>
             </div>
           </form>
-          <p class="d-none d-md-block text-muted">Never spam, just great tutorials. Unsubscribe at any time.</p>
+          <small class="d-none d-md-block text-muted">Never any spam, just great tutorials. Unsubscribe at any time.</small>
         </div>
       </div>
     </div>
@@ -31,11 +34,11 @@
     <div class="container">
       <div class="row">
         <div class="col">
-          <h3 class="pb-0 text-center text-md-left text-muted">Get great tutorials like these, every month</h3>
+          <h3 class="pb-0 text-center text-md-left text-muted">Get original React tutorials, like these:</h3>
         </div>
       </div>
       <div class="row mt-4">
-        <?php include('Components/all-react-tutorials.php') ?>
+        <?php include('Components/top-three-tutorials.php') ?>
       </div>
     </div>
   </div>

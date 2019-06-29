@@ -24,17 +24,17 @@
                 </a>
             </div>
             <div class="links">
-                <a href="https://upmostly.com/" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'home' });">
-                    <i class="fas fa-home mr-1 about"></i>
-                    Home
-                </a>
                 <a href="https://upmostly.com/tutorials" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'tutorials' });">
-                    <i class="fas fa-code mr-1 tutorials"></i>
+                    <i class="fab fa-react mr-1 tutorials"></i>
                     Tutorials
                 </a>
                 <a href="https://upmostly.com/newsletter" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'newsletter' });">
                     <i class="fas fa-envelope mr-1 newsletter" /></i>
                     Newsletter
+                </a>
+                <a href="https://upmostly.com/contact" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'contact' });">
+                    <i class="fas fa-comment mr-1 about"></i>
+                    Contact
                 </a>
             </div>
             <div class="extra">
