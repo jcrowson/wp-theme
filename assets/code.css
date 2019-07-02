@@ -110,12 +110,12 @@ h3 {
 }
 
 .floating-social {
-  margin-top: 20px;
+  margin-top: 35px;
   width: 100%;
   position: sticky;
   right: 0;
-  top: 350px;
-  float: right;
+  top: 380px;
+  float: left;
 }
 
 .social-circle {
