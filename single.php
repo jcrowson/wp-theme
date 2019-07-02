@@ -37,7 +37,7 @@
                         </div>
                       </div>
                     </form>
-                    <small class="text-muted">Don't miss out on the latest React tutorials! Unsubscribe at <i>any</i> time.</small>
+                    <div class="text-muted newsletter-small-text">Don't miss the latest React tutorials. No spam, ever. Opt out at any time.</div>
                   </div>
                 <div class="floating-related-post">
                   <div class="text-muted mb-3">
@@ -53,9 +53,12 @@
                           <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
                       <?php endif;
                     ?>
-                  <a href="/tutorials" style="    color: #64b6cd;">
+                  <a href="/tutorials" style="color: #64b6cd;">
                     <small><i class="fab fa-react mr-1 tutorials"></i> All React Tutorials</small>
                   </a>
+                </div>
+                <div class="floating-social text-muted">
+                  <a onClick="gtag('event', 'click', { 'event_category': 'social share - twitter', 'event_label': '<?= the_title(); ?>' });" target="_blank" href="http://twitter.com/share?text=<?= the_title(); ?> @upmostlyhq&url=<?= the_permalink(); ?>&hashtags=react,javascript" class="twitter-share-button"><i class="fab fa-twitter social-circle twitter mr-2"></i></a>
                 </div>
               </div>
             </div>
@@ -120,7 +123,6 @@
         </div>
       </div>
     </section>
-
   </article>
 </main>
 

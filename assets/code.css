@@ -109,13 +109,42 @@ h3 {
   float: right;
 }
 
+.floating-social {
+  margin-top: 20px;
+  width: 100%;
+  position: sticky;
+  right: 0;
+  top: 350px;
+  float: right;
+}
+
+.social-circle {
+  padding: 8px;
+  color: white;
+  border-radius: 50%;
+  opacity: .5;
+}
+
+.twitter {
+  background: #1da1f2;
+}
+
+.linkedin {
+  background: #0077b5;
+}
+
 .sidebar-newsletter {
   right: 0;
   top: 0;
-  background: #f1f1f1;
-  padding: 1rem;
+  border: 1px #E7EEF2 solid;
   border-radius: 3px;
+  background: #F5F8FA;
+  padding: 1rem;
   text-align: center;
+}
+
+.newsletter-small-text {
+  font-size: .7rem;
 }
 
 @media (min-width: 768px) {
