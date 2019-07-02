@@ -25,40 +25,42 @@
             </div>
             <div class="d-none d-xl-block col-xl-3">
               <div class="floating-wrapper">
-                  <div class="sidebar-newsletter mb-4">
-                    <span class="text-muted">
-                     📬 Monthly React Newsletter
-                    </span>
-                    <form action="https://wplogic.us18.list-manage.com/subscribe/post?u=7806e537fd7c0d111ed32b4a6&amp;id=c4ae659733" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" validate>
-                      <div class="input-group mt-3 mb-2">
-                        <input type="email" class="form-control form-control-sm" name="EMAIL" id="mce-EMAIL" placeholder="Your Email" required>
-                        <div class="input-group-append">
-                          <button class="btn btn-sm btn-primary" type="submit" onClick="gtag('event', 'join', { 'event_category': 'newsletter', 'event_label': 'sidebar' });">Subscribe</button>
-                        </div>
+                <div class="sidebar-newsletter mb-4">
+                  <span class="text-muted">
+                   📬 Monthly React Newsletter
+                  </span>
+                  <form action="https://wplogic.us18.list-manage.com/subscribe/post?u=7806e537fd7c0d111ed32b4a6&amp;id=c4ae659733" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" validate>
+                    <div class="input-group mt-3 mb-2">
+                      <input type="email" class="form-control form-control-sm" name="EMAIL" id="mce-EMAIL" placeholder="Your Email" required>
+                      <div class="input-group-append">
+                        <button class="btn btn-sm btn-primary" type="submit" onClick="gtag('event', 'join', { 'event_category': 'newsletter', 'event_label': 'sidebar' });">Subscribe</button>
                       </div>
-                    </form>
-                    <div class="text-muted newsletter-small-text">Don't miss the latest React tutorials. No spam, ever. Opt out at any time.</div>
-                  </div>
+                    </div>
+                  </form>
+                  <div class="text-muted newsletter-small-text">Don't miss the latest React tutorials. No spam, ever. Opt out at any time.</div>
+                </div>
                 <div class="floating-related-post">
                   <div class="text-muted mb-3">
                     💻 More React Tutorials
                   </div>
-                    <?php
-                      $post_objects = get_field('related_tutorials');
-                      if( $post_objects ): ?>
-                          <?php foreach( $post_objects as $post): // variable must be called $post (IMPORTANT) ?>
-                              <?php setup_postdata($post); ?>
-                              <?php include('Components/related-tutorial-link.php'); ?>
-                          <?php endforeach; ?>
-                          <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
-                      <?php endif;
-                    ?>
+                  <?php
+                    $post_objects = get_field('related_tutorials');
+                    if( $post_objects ): ?>
+                        <?php foreach( $post_objects as $post): // variable must be called $post (IMPORTANT) ?>
+                            <?php setup_postdata($post); ?>
+                            <?php include('Components/related-tutorial-link.php'); ?>
+                        <?php endforeach; ?>
+                        <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+                    <?php endif;
+                  ?>
                   <a href="/tutorials" style="color: #64b6cd;">
                     <small><i class="fab fa-react mr-1 tutorials"></i> All React Tutorials</small>
                   </a>
                 </div>
                 <div class="floating-social text-muted">
-                  <a onClick="gtag('event', 'click', { 'event_category': 'social share - twitter', 'event_label': '<?= the_title(); ?>' });" target="_blank" href="http://twitter.com/share?text=<?= the_title(); ?> @upmostlyhq&url=<?= the_permalink(); ?>&hashtags=react,javascript" class="twitter-share-button"><i class="fab fa-twitter social-circle twitter mr-2"></i></a>
+                  <a onClick="gtag('event', 'click', { 'event_category': 'social share - twitter', 'event_label': '<?= the_title(); ?>' });" target="_blank" href="http://twitter.com/share?text=<?= the_title(); ?> @upmostlyhq&url=<?= the_permalink(); ?>&hashtags=react,javascript" class="twitter-share-button">
+                    <i class="fab fa-twitter social-circle twitter mr-2"></i>
+                  </a>
                 </div>
               </div>
             </div>
