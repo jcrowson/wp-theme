@@ -11,7 +11,7 @@
           <div class="d-none d-md-block ml-5">
             <h1>The Complete Guide to React</h1>
             <p>
-              I'm writing a e-book on React, and I'm working hard to make it the latest, most up-to-date reference on the world's most popular UI library.
+              I'm writing a React e-book, and I'm working hard to make it the latest, most up-to-date reference on the world's most popular UI library.
             </p>
             <div class="monthly-newsletter-box text-left">
               <h3 class="mt-0 pt-0">📘 Download a <u>Free</u> Chapter</h3>
@@ -47,7 +47,7 @@
           The Complete Guide to React
         </h1>
         <p>
-          The latest, most up-to-date reference on the world's most popular UI library.
+          I'm writing a React e-book, and I'm working hard to make it the latest, most up-to-date reference on the world's most popular UI library.
         </p>
       </div>
     </div>
