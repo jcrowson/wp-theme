@@ -7,7 +7,7 @@
     <div class="container">
       <div class="row">
         <div class="col-12 col-md-12 d-flex justify-content-center p-md-5">
-          <img style="width: 314px;" src="https://upmostly.com/wp-content/uploads/react-book-v2.png" alt="A React book called The Complete Guide to React" />
+          <img style="width: 314px; height: 389px" src="https://upmostly.com/wp-content/uploads/react-book-v2.png" alt="A React book called The Complete Guide to React" />
           <div class="d-none d-md-block ml-5">
             <h1>The Complete Guide to React</h1>
             <p>
@@ -51,7 +51,7 @@
         </p>
       </div>
     </div>
-    <div class="row">
+    <div class="row mb-4">
       <div class="col">
         <div class="monthly-newsletter-box text-center">
           <h3 class="mt-0 pt-0">📘 Download a <u>Free</u> Chapter</h3>
