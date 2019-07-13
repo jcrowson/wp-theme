@@ -1,7 +1,7 @@
 <?php get_header(); ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
-<main role="main">
+<main role="main" class="pt-5">
   <section class="jumbotron post-hero-banner text-center">
     <div class="container container-small">
       <h1 class="jumbotron-heading"><?php the_title() ?></h1>

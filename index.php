@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<main role="main">
+<main role="main" class="pt-5">
   <section class="jumbotron d-flex justify-content-between align-items-center hero-banner hero-banner-blog">
     <div class="container">
       <div class="row">

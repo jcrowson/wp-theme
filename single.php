@@ -2,7 +2,7 @@
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
-<main role="main">
+<main role="main" class="pt-5">
   <article>
     <section class="jumbotron post-hero-banner text-center">
       <aside class="container container-small">
