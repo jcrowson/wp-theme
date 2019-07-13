@@ -98,6 +98,20 @@ h3 {
   padding: 6.5rem 0 .5rem 0 !important;
 }
 
+.banner {
+  background: black;
+  color: white;
+  height: 2rem;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.banner a {
+  color: #63c1ff;
+  text-decoration: underline;
+}
+
 .floating-wrapper {
   height: 100%;
 }
@@ -500,4 +514,8 @@ header {
 .highlight {
   color: black;
   font-weight: 600;
+}
+
+.font-sm {
+  font-size: .7rem;
 }

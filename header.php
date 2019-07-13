@@ -16,6 +16,11 @@
   </head>
   <body>
     <header>
+      <?php
+        if (strpos($_SERVER['REQUEST_URI'], "react-book") === false){
+         include('Components/banner.php');
+        }
+      ?>
         <nav class="nav">
             <div class="navbar-brand">
                 <a href="https://upmostly.com" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'logo' });">
@@ -32,9 +37,9 @@
                     <i class="fas fa-envelope mr-1 newsletter" /></i>
                     Newsletter
                 </a>
-                <a href="https://upmostly.com/contact" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'contact' });">
+                <a href="https://upmostly.com/about" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'about' });">
                     <i class="fas fa-comment mr-1 about"></i>
-                    Contact
+                    About
                 </a>
             </div>
             <div class="extra">
