@@ -90,28 +90,30 @@
       <div class="container d-xl-none">
         <div class="row">
           <div class="col text-muted">
-            <h3>More React Tutorials 💻</h3>
+            <h3 class="mt-1">💻 More React Tutorials</h3>
           </div>
         </div>
-        <div class="row mt-2 mb-5">
-          <?php
-            $currentPostId = get_the_ID();
-            $args = array(
-              'posts_per_page' => 3,
-              'post_type' => 'post',
-              'post__not_in' => array($currentPostId)
-            );
-            $post_query = new WP_Query($args);
-            if($post_query->have_posts() ) {
-            while($post_query->have_posts() ) {
-            $post_query->the_post();
-            ?>
-          <?php include('Components/tutorial-card.php'); ?>
-          <?php
+        <div class="row">
+          <div class="col-12">
+            <?php
+              $currentPostId = get_the_ID();
+              $args = array(
+                'posts_per_page' => 3,
+                'post_type' => 'post',
+                'post__not_in' => array($currentPostId)
+              );
+              $post_query = new WP_Query($args);
+              if($post_query->have_posts() ) {
+              while($post_query->have_posts() ) {
+              $post_query->the_post();
+              ?>
+            <?php include('Components/related-tutorial-link.php'); ?>
+            <?php
+                }
               }
-            }
-            wp_reset_postdata();
-          ?>
+              wp_reset_postdata();
+            ?>
+          </div>
         </div>
       </div>
       <div class="container container-small">
