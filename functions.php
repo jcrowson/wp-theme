@@ -3,7 +3,6 @@
   function main_script_create() {
     wp_enqueue_style('bootstrap4', 'https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css', array(), '1.0.0', 'all');
     wp_enqueue_style('customstyle', get_template_directory_uri() . '/assets/code.css', array(), '1.0.3', 'all');
-    wp_enqueue_style('fontawesome', 'https://use.fontawesome.com/releases/v5.5.0/css/all.css', array(), '1.0.0', 'all');
   }
 
   add_action('wp_enqueue_scripts', 'main_script_create');

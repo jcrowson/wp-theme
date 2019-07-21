@@ -30,24 +30,24 @@
             </div>
             <div class="links">
                 <a href="https://upmostly.com/tutorials" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'tutorials' });">
-                    <i class="fab fa-react mr-1 tutorials"></i>
+                    <i class="icon-react mr-1 tutorials"></i>
                     Tutorials
                 </a>
                 <a href="https://upmostly.com/newsletter" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'newsletter' });">
-                    <i class="fas fa-envelope mr-1 newsletter" /></i>
+                    <i class="icon-envelope mr-1 newsletter" /></i>
                     Newsletter
                 </a>
                 <a href="https://upmostly.com/about" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'about' });">
-                    <i class="fas fa-comment mr-1 about"></i>
+                    <i class="icon-comment mr-1 about"></i>
                     About
                 </a>
             </div>
             <div class="extra">
                 <a href="https://twitter.com/upmostlyhq" target="_blank" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'twitter' });">
-                    <i class="fab fa-twitter"></i>
+                    <i class="icon-twitter"></i>
                 </a>
                 <a href="https://github.com/upmostly" target="_blank" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'github' });">
-                    <i class="fab fa-github"></i>
+                    <i class="icon-github"></i>
                 </a>
             </div>
         </nav>
