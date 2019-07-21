@@ -59,7 +59,7 @@
                 </div>
                 <div class="floating-social text-muted">
                   <a onClick="gtag('event', 'click', { 'event_category': 'social share - twitter', 'event_label': '<?= the_title(); ?>' });" target="_blank" href="http://twitter.com/share?text=<?= the_title(); ?> @upmostlyhq&url=<?= the_permalink(); ?>&hashtags=react,javascript" class="twitter-share-button">
-                    <i class="fab fa-twitter social-circle twitter mr-2"></i>
+                    <i class="icon-twitter social-circle twitter mr-2"></i>
                   </a>
                 </div>
               </div>
