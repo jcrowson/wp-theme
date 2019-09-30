@@ -11,7 +11,7 @@
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'UA-128624579-1', { 'optimize_id': 'GTM-KHZ28RC' });
+      gtag('config', 'UA-128624579-1');
     </script>
   </head>
   <body>
