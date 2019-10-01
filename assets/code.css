@@ -15,7 +15,6 @@ blockquote {
   color: #165c26;
   background-color: #dcffe4;
   border: 1px solid rgba(27,31,35,.15);
-  border-left: 10px solid #96f1b5;
   border-radius: 3px;
 }
 
@@ -46,7 +45,7 @@ footer a:hover {
 }
 
 .post-hero-banner {
-  background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
+  background: white;
   margin: 0;
 }
 
@@ -79,9 +78,15 @@ h1 {
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-size: 1.6rem;
   font-weight: 600;
-  padding: 2rem 0 1rem 0;
+  padding: 1rem 0 .8rem 0;
+  margin-bottom: 1.4rem;
+  border-bottom: 2px solid #e6e6e6;
+}
+
+h2.no-underline {
+  border: none !important;
 }
 
 h3 {
@@ -119,7 +124,7 @@ h3 {
 .floating-related-post {
   position: sticky;
   right: 0;
-  top: 80px;
+  top: 120px;
   float: right;
 }
 
@@ -168,7 +173,7 @@ h3 {
     font-size: 1.1rem;
   }
   .author-block img {
-    width: 40px;
+    width: 120px;
   }
   h1 {
     font-size: 1.5rem;
@@ -208,7 +213,10 @@ h4 {
 }
 
 .author-block {
-  font-size: 1rem;
+  font-size: .9rem;
+  background: #00000008;
+  border-radius: 3px;
+  padding: 2rem;
 }
 
 .author-date {
@@ -561,4 +569,10 @@ i {
 }
 .icon-github:before {
   content: "\eab0";
+}
+
+/* Most Read */
+.most-read-number {
+  font-size: 1.4rem;
+  color: #447bfc;
 }

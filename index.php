@@ -6,7 +6,7 @@
       <div class="row">
         <div class="col-md-12 text-center">
           <h1 class="hero-text">Level Up Your React Skills</h1>
-          <h2 class="pt-0 pb-0 mb-0 hero-subtitle-text">
+          <h2 class="pt-0 pb-0 mb-0 no-underline">
             Upmostly brings you original React and JavaScript tutorials each week.
           </h2>
         </div>
