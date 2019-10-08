@@ -34,7 +34,7 @@
                     Tutorials
                 </a>
                 <a href="https://upmostly.com/newsletter" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'newsletter' });">
-                    <i class="icon-envelope mr-1 newsletter" /></i>
+                    <i class="icon-envelope mr-1 newsletter"></i>
                     Newsletter
                 </a>
                 <a href="https://upmostly.com/about" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'about' });">

@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="row mt-4">
-        <?php include('Components/top-three-tutorials.php') ?>
+        <?php include('Components/example-tutorials-newsletter.php') ?>
       </div>
     </div>
   </div>
