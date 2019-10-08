@@ -42,7 +42,9 @@
                   </form>
                   <div class="text-muted newsletter-small-text">Don't miss the latest React tutorials. No spam, ever. Opt out at any time.</div>
                 </div>
-                <?php include('Components/most-read-bar.php'); ?>
+                <div class="floating-related-post">
+                  <?php include('Components/most-read-bar.php'); ?>
+                </div>
               </div>
             </div>
           </div>

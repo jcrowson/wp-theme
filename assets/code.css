@@ -224,21 +224,12 @@ h4 {
 }
 
 .card {
-  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
   border: none;
-  min-height: 330px;
-}
-
-.card:hover {
-  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
-  transform: translate(0, -5px);
 }
 
 .card-title a {
   color: #222;
-  font-size: 1.2rem;
-  line-height: 1.8rem;
+  font-size: 1rem;
   font-weight: 700;
 }
 
@@ -251,7 +242,7 @@ h4 {
 }
 
 .card-body {
-  padding: 1.2rem !important;
+  padding: 0 !important;
 }
 
 .card-foot {
@@ -293,8 +284,7 @@ footer {
 .block-img-top {
   height: 120px;
   object-fit: cover;
-  border-top-left-radius: 3px;
-  border-top-right-radius: 3px;
+  border-radius: 3px;
 }
 
 .block-body {
@@ -366,7 +356,7 @@ header {
   top: 0;
   left: 0;
   background: #fff;
-  z-index: 3;
+  z-index: 999;
   width: 100%;
   border-bottom: 2px solid #eee;
   font-size: .85rem;
@@ -575,4 +565,61 @@ i {
 .most-read-number {
   font-size: 1.4rem;
   color: #447bfc;
+}
+
+.hover-pop {
+  transition: all .3s cubic-bezier(.25,.8,.25,1);
+}
+
+.hover-pop:hover {
+  box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+  transform: translate(0,-5px);
+}
+
+/* Getting Started Cards */
+.category-card {
+  height: 200px;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+
+  color: white;
+}
+
+.no-underline {
+  text-decoration: none !important;
+}
+
+.card-img-top {
+  border-radius: 3px !important;
+}
+
+.category-color {
+  z-index: 9;
+  width: 3px;
+  height: 35px;
+}
+
+.category-heading {
+  padding-right: 20px;
+  padding-left: 10px;
+  margin-bottom: 0;
+  background: white;
+  z-index: 99;
+  padding-top: 0;
+}
+
+.card-body p {
+  color: #868686;
+  font-size: .9rem;
+  line-height: 1.125rem;
+}
+
+.heading-line {
+  width: 90%;
+  height: 2px;
+  position: absolute;
+  background: #e6e6e6;
 }
