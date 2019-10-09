@@ -6,11 +6,9 @@
       <div class="row">
         <div class="col">
           <h3 class="pb-0 mb-0 text-center text-md-left text-muted"><i class="fab fa-react react-icon"></i>
-            All
             <?php
               echo single_tag_title( '', false );
             ?>
-            Tutorials
           </h3>
         </div>
       </div>

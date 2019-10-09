@@ -9,7 +9,7 @@
     while($post_query->have_posts() ) {
       $post_query->the_post();
       ?>
-      <?php include('tutorial-card-large.php'); ?>
+      <?php include('tutorial-card.php'); ?>
       <?php
     }
   }
