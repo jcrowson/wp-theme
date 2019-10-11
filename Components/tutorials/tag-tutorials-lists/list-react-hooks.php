@@ -10,4 +10,5 @@
       include(__DIR__ . '/../../tutorial-card.php');
     }
   }
-
+  wp_reset_postdata();
+?>

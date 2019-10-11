@@ -17,32 +17,35 @@
     <div class="container">
       <div class="row d-none d-lg-flex">
         <div class="col-8">
-          <a class="card mb-4 hover-pop" href="tutorials/how-to-use-the-setstate-callback-in-react">
-            <img class="card-img-top" src="<?= get_bloginfo('wpurl') . '/wp-content/uploads/react-setstate-callback.jpg' ?>" alt="React tutorial header image">
-          </a>
-          <div class="col-6 p-0">
-            <div class="sidebar-newsletter mb-4">
-              <span class="text-muted">
-               📬 Monthly React Newsletter
-              </span>
-              <form action="https://wplogic.us18.list-manage.com/subscribe/post?u=7806e537fd7c0d111ed32b4a6&amp;id=c4ae659733" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" validate>
-                <div class="input-group mt-3 mb-2">
-                  <input type="email" class="form-control form-control-sm" name="EMAIL" id="mce-EMAIL" placeholder="Your Email" required>
-                  <div class="input-group-append">
-                    <button class="btn btn-sm btn-primary" type="submit" onClick="gtag('event', 'join', { 'event_category': 'newsletter', 'event_label': 'homepage' });">
-                      Subscribe
-                    </button>
-                  </div>
-                </div>
-              </form>
-              <div class="text-muted newsletter-small-text">
-                Don't miss our latest React tutorials. No spam, ever.
-              </div>
+          <div class="d-flex mb-4">
+            <div class="card-body">
+              <h2 class="no-underline mb-1">
+                <a href="web-development/how-react-reignited-my-love-for-web-development">
+                  How React Reignited My Love for Web Development
+                </a>
+              </h2>
+              It’s about time I shared my reasons why I came back to web development after five years of iOS development, and why I attribute a lot of these reasons to React.
             </div>
+            <a href="web-development/how-react-reignited-my-love-for-web-development">
+              <img class="card-img-top" src="<?= get_bloginfo('wpurl') . '/wp-content/uploads/react-love-web-development.jpg' ?>" alt="The React logo next to a heart emoji and the fire emoji underneath.">
+            </a>
           </div>
         </div>
         <div class="col-4">
-          <?php include('Components/most-read-bar.php') ?>
+          <div class="card mb-4">
+            <a href="<?= the_permalink(); ?>">
+              <img class="card-img-top" src="<?= get_bloginfo('wpurl') . '/wp-content/uploads/' .get_post_meta($post->ID, 'thumbnail', true); ?>" alt="<?php echo get_post_meta($post->ID, '_wp_attachment_image_alt', true ); ?>">
+            </a>
+            <div class="card-body">
+              <small class="text-muted"><?= the_date(); ?></small>
+              <h5 class="card-title">
+                <a href="<?= the_permalink(); ?>">
+                  <?= the_title(); ?>
+                </a>
+              </h5>
+              <?= the_excerpt(); ?>
+            </div>
+          </div>
         </div>
       </div>
       <div class="row my-4">
