@@ -1,7 +1,4 @@
-<?php
-  get_header();
-  $comments = get_comments_number();
-?>
+<?php get_header(); ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
 
@@ -10,11 +7,11 @@
     <section class="jumbotron post-hero-banner text-center">
       <aside class="container container-small">
         <h1 class="jumbotron-heading"><?php the_title() ?></h1>
-        <time datetime="<?php echo get_the_date( 'c' ); ?>">
-          <?php the_date() ?>
-        </time>
-        /
-        <a href="#comments"><?php echo ($comments == 0) ? "Leave a comment" : $comments . " comment" . ($comments > 1 ? 's' : null) ?></a>
+        <div class="author-block text-muted mb-3">
+          <img class="rounded-circle mr-2" src="https://upmostly.com/wp-content/uploads/james-headshot.jpg" />
+          <span class="author">James King</span>
+        </div>
+        <p class="author-date lead mb-2"><?php the_date() ?> / <a href="#comments">Leave a comment</a></p>
       </aside>
     </section>
     <section class="page-content">
@@ -43,7 +40,27 @@
                   <div class="text-muted newsletter-small-text">Don't miss the latest React tutorials. No spam, ever. Opt out at any time.</div>
                 </div>
                 <div class="floating-related-post">
-                  <?php include('Components/most-read-bar.php'); ?>
+                  <div class="text-muted mb-3">
+                    💻 More React Tutorials
+                  </div>
+                  <?php
+                    $post_objects = get_field('related_tutorials');
+                    if( $post_objects ): ?>
+                        <?php foreach( $post_objects as $post): // variable must be called $post (IMPORTANT) ?>
+                            <?php setup_postdata($post); ?>
+                            <?php include('Components/related-tutorial-link.php'); ?>
+                        <?php endforeach; ?>
+                        <?php wp_reset_postdata(); // IMPORTANT - reset the $post object so the rest of the page works correctly ?>
+                    <?php endif;
+                  ?>
+                  <a href="/tutorials" style="color: #64b6cd;">
+                    <small><i class="fab fa-react mr-1 tutorials"></i> All React Tutorials</small>
+                  </a>
+                </div>
+                <div class="floating-social text-muted">
+                  <a onClick="gtag('event', 'click', { 'event_category': 'social share - twitter', 'event_label': '<?= the_title(); ?>' });" target="_blank" href="http://twitter.com/share?text=<?= the_title(); ?> @upmostlyhq&url=<?= the_permalink(); ?>&hashtags=react,javascript" class="twitter-share-button">
+                    <i class="icon-twitter social-circle twitter mr-2"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -55,7 +72,7 @@
         <div class="row my-4">
           <div class="monthly-newsletter-box text-center">
             <div class="col">
-              <h2 class="mt-0 pt-0 no-underline">📬 The Monthly Upmostly Newsletter</h2>
+              <h2 class="mt-0 pt-0">📬 The Monthly Upmostly Newsletter</h2>
               One email a month, packed with the latest React tutorials, delivered straight to your inbox.
             </div>
             <form action="https://wplogic.us18.list-manage.com/subscribe/post?u=7806e537fd7c0d111ed32b4a6&amp;id=c4ae659733" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" validate>
@@ -69,7 +86,6 @@
             </form>
           </div>
         </div>
-        <?php include('Components/author-section.php'); ?>
       </div>
       <div class="container d-xl-none">
         <div class="row">
@@ -79,7 +95,24 @@
         </div>
         <div class="row">
           <div class="col-12">
-            <?php include('Components/related-tutorials-mobile.php'); ?>
+            <?php
+              $currentPostId = get_the_ID();
+              $args = array(
+                'posts_per_page' => 3,
+                'post_type' => 'post',
+                'post__not_in' => array($currentPostId)
+              );
+              $post_query = new WP_Query($args);
+              if($post_query->have_posts() ) {
+              while($post_query->have_posts() ) {
+              $post_query->the_post();
+              ?>
+            <?php include('Components/related-tutorial-link.php'); ?>
+            <?php
+                }
+              }
+              wp_reset_postdata();
+            ?>
           </div>
         </div>
       </div>
