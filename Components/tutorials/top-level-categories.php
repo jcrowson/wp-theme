@@ -1,4 +1,4 @@
-<a class="col-12 col-md-6 col-lg-4 no-underline" href="tag/beginner-react">
+<a class="col-12 col-md-6 col-lg-4 no-underline" href="tag/beginner-react-tutorials">
   <div class="card category-card hover-pop mb-4" style="background-image: url('<?= get_bloginfo('wpurl') . '/wp-content/uploads/beginner-react-tutorials.jpg' ?>')">
     Beginner React Tutorials
   </div>

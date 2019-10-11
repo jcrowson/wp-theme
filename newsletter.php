@@ -11,7 +11,7 @@
         </div>
         <div class="col-12 col-md-8 offset-md-2 mt-3 text-center">
           <h1>A Monthly React Newsletter, Packed With Tutorials</h1>
-          <h2 class="pt-0 pb-0 mb-0 d-none d-md-block">
+          <h2 class="pt-0 pb-0 mb-0 d-none d-md-block no-underline">
             Join 100s of other devs who get our latest React tutorials, every month, straight to their inbox.
           </h2>
         </div>

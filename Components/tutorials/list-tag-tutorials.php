@@ -16,7 +16,6 @@
       <h2 class="no-underline category-heading">React Forms</h2>
       <div class="heading-line"></div>
     </div>
-    <a href="tag/react-forms" onClick="gtag('event', 'click', { 'event_category': 'tag link', 'event_label': 'view all react forms' });">View all</a>
   </div>
   <?php include('tag-tutorials-lists/list-react-forms.php') ?>
 </div>
