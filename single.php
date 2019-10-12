@@ -1,6 +1,7 @@
 <?php
   get_header();
   $comments = get_comments_number();
+  $post_tags = get_the_tags();
 ?>
 
 <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
@@ -15,6 +16,17 @@
         </time>
         /
         <a href="#comments"><?php echo ($comments == 0) ? "Leave a comment" : $comments . " comment" . ($comments > 1 ? 's' : null) ?></a>
+        <div class="category-tags">
+          <?php
+          if ($post_tags) {
+            foreach(get_the_tags($post->ID) as $tag) {
+              if ($tag->name !== react) {
+                echo '<span class="category-tag"><a href="' . get_tag_link($tag->term_id) . '">' . $tag->name . '</a></span>';
+              }
+            }
+          }
+          ?>
+        </div>
       </aside>
     </section>
     <section class="page-content">
