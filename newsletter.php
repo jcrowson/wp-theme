@@ -10,9 +10,9 @@
           <img style="width: 200px;" src="https://upmostly.com/wp-content/uploads/react-newsletter-mailbox.png" alt="A mailbox with two letters, showing React logos" />
         </div>
         <div class="col-12 col-md-8 offset-md-2 mt-3 text-center">
-          <h1>A Monthly React Newsletter, Packed With Tutorials</h1>
+          <h1>A Monthly Newsletter, Packed With React Tutorials</h1>
           <h2 class="pt-0 pb-0 mb-0 d-none d-md-block no-underline">
-            Join 100s of other devs who get our latest React tutorials, every month, straight to their inbox.
+            Join over 700 developers who get the latest React tutorials, every month, straight to their inbox.
           </h2>
         </div>
         <div class="col-12 col-md-6 offset-md-3 text-center mt-0 mt-md-4">
@@ -30,7 +30,7 @@
       </div>
     </div>
   </section>
-  <div class="album mt-2 pb-5 bg-light">
+  <div class="mt-2 pb-5">
     <div class="container">
       <div class="row">
         <div class="col">

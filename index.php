@@ -32,19 +32,19 @@
           </div>
           <div class="row">
             <div class="col-6">
-                <div class="card mb-4">
-                  <a href="tutorials/build-a-react-switch-toggle-component">
-                    <img class="card-img-top" src="<?= get_bloginfo('wpurl') . '/wp-content/uploads/react-switch-toggle-component.jpg' ?>" alt="Two React Switch components of different colors.">
-                  </a>
-                </div>
-            </div>
-              <div class="col-6">
-                  <div class="card mb-4">
-                      <a href="tutorials/how-to-use-the-setstate-callback-in-react">
-                          <img class="card-img-top" src="<?= get_bloginfo('wpurl') . '/wp-content/uploads/react-setstate-callback.jpg' ?>" alt="React code showing how to use setState callback.">
-                      </a>
-                  </div>
+              <div class="card mb-4">
+                <a href="tutorials/build-a-react-switch-toggle-component">
+                  <img class="card-img-top" src="<?= get_bloginfo('wpurl') . '/wp-content/uploads/react-switch-toggle-component.jpg' ?>" alt="Two React Switch components of different colors.">
+                </a>
               </div>
+            </div>
+            <div class="col-6">
+              <div class="card mb-4">
+                <a href="tutorials/how-to-use-the-setstate-callback-in-react">
+                  <img class="card-img-top" src="<?= get_bloginfo('wpurl') . '/wp-content/uploads/react-setstate-callback.jpg' ?>" alt="React code showing how to use setState callback.">
+                </a>
+              </div>
+            </div>
           </div>
         </div>
         <div class="col-4">
@@ -54,17 +54,17 @@
       <div class="row my-4">
         <a class="col-12 col-md-6 col-lg-4 no-underline" href="tag/beginner-react-tutorials" onClick="gtag('event', 'click', { 'event_category': 'category link', 'event_label': 'Beginner React Tutorials' });">
           <div class="card category-card hover-pop mb-4" style="background-image: url('<?= get_bloginfo('wpurl') . '/wp-content/uploads/beginner-react-tutorials.jpg' ?>')">
-              Beginner React Tutorials
+            Beginner React Tutorials
           </div>
         </a>
         <a class="col-12 col-md-6 col-lg-4 no-underline" href="tag/advanced-react-tutorials" onClick="gtag('event', 'click', { 'event_category': 'category link', 'event_label': 'Advanced React Tutorials' });">
           <div class="card category-card hover-pop mb-4" style="background-image: url('<?= get_bloginfo('wpurl') . '/wp-content/uploads/advanced-react-tutorials.jpg' ?>')">
-              Advanced React Tutorials
+            Advanced React Tutorials
           </div>
         </a>
         <a class="col-12 col-md-6 col-lg-4 no-underline" href="tutorials" onClick="gtag('event', 'click', { 'event_category': 'category link', 'event_label': 'All React Tutorials' });">
           <div class="card category-card hover-pop mb-4" style="background-image: url('<?= get_bloginfo('wpurl') . '/wp-content/uploads/all-react-tutorials.jpg' ?>')">
-              All React Tutorials
+            All React Tutorials
           </div>
         </a>
         <div class="col-6 d-none d-md-block d-lg-none">
