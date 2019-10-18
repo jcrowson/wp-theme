@@ -651,3 +651,28 @@ i {
   text-decoration: none;
   color: #404040;
 }
+
+/* Jobs */
+
+#wpjb-top-search {
+  background: #ffffff !important;
+  color: #546e7a !important;
+  font-size: 13px !important;
+  clear: both !important;
+  margin: 0 0 12px 0 !important;
+}
+
+#wpjb-top-search ul li {
+  font-size: 12px !important;
+}
+
+.wpjb-cute-input.wpjb-cute-checkbox .wpjb-cute-input-indicator:after {
+  top: 4px !important;
+  left: 7px !important;
+  width: 5px !important;
+  height: 8px !important;
+}
+
+.wpjb-cute-input input:checked ~ .wpjb-cute-input-indicator {
+  background: #404b58 !important;
+}
