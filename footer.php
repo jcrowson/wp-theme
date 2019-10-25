@@ -16,10 +16,15 @@
               </form>
             </div>
             <div class="col-12 my-3 my-md-0">
-              <a href="/privacy" target="_blank">
+              <a href="https://upmostly.com/about" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'about' });">
+                About
+              </a>
+              <a class="ml-2" href="/privacy" target="_blank" onClick="gtag('event', 'click', { 'event_category':
+              'navigation', 'event_label': 'privacy' });">
                 Privacy
               </a>
-              <a class="ml-2" href="https://upmostly.com/feed" target="_blank">
+              <a class="ml-2" href="https://upmostly.com/feed" target="_blank" onClick="gtag('event', 'click', {
+                  'event_category': 'navigation', 'event_label': 'feed' });">
                 RSS
               </a>
               <a class="ml-2" href="https://twitter.com/upmostlyhq" target="_blank">

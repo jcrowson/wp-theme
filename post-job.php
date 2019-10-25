@@ -1,4 +1,4 @@
-<?php /* Template Name: Jobs */ ?>
+<?php /* Template Name: Post a Job */ ?>
 
 <?php include('Components/jobs-header.php'); ?>
 
@@ -6,8 +6,8 @@
 <main role="main">
   <section style="padding: 6rem 0 3rem 0;" class="jobs-hero text-center">
     <div class="container container-small">
-      <h1>Jobs for React & JavaScript Developers</h1>
-      <h5>Find your next React position at some of the world’s best tech companies.</h5>
+      <h1>Over 65,000 React and JavaScript Developers visit Upmostly every month</h1>
+      <h5>Post a new job listing on Upmostly today and reach a vast audience of JavaScript and React developers.</h5>
     </div>
   </section>
 

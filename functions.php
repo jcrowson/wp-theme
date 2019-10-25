@@ -24,3 +24,30 @@
     }
     return '';
   }
+
+  add_filter("wpjb_scheme", "my_wpjb_scheme", 10, 2);
+
+  function my_wpjb_scheme($scheme, $object) {
+    if(isset($object->meta->custom_url)) {
+      $scheme["field"]["salary"]["render_callback"] = "my_render_salary";
+    }
+    if(isset($object->meta->apply_url)) {
+      $scheme["field"]["apply_url"]["render_callback"] = "my_render_apply_url";
+    }
+    return $scheme;
+  }
+
+  function my_render_salary($object) {
+    $salary = $object->meta->salary->value();
+    echo '$' . number_format($salary, 0);
+  }
+
+  function my_render_apply_link($object) {
+    $apply_url = $object->meta->apply_url->value();
+    $apply_email = $object->meta->apply_email->value();
+    if ($apply_url != '') {
+      echo $apply_url;
+    } else {
+      echo 'mailto:' . $apply_email;
+    }
+  }
