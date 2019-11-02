@@ -16,7 +16,10 @@
               </form>
             </div>
             <div class="col-12 my-3 my-md-0">
-              <a href="/privacy" target="_blank">
+              <a href="https://moneymonster.org">
+                MoneyMonster.org
+              </a>
+              <a class="ml-2" href="/privacy" target="_blank">
                 Privacy
               </a>
               <a class="ml-2" href="https://upmostly.com/feed" target="_blank">
