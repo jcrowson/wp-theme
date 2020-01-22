@@ -1,6 +1,16 @@
 <div class="row">
   <div class="col-12 d-flex align-items-center justify-content-between mb-3">
     <div class="d-flex align-items-center">
+      <div style="background: #9c4eff;" class="category-color"></div>
+      <h2 class="no-underline category-heading">Latest Posts</h2>
+      <div class="heading-line"></div>
+    </div>
+  </div>
+  <?php include('tag-tutorials-lists/list-latest-posts.php') ?>
+</div>
+<div class="row">
+  <div class="col-12 d-flex align-items-center justify-content-between mb-3">
+    <div class="d-flex align-items-center">
       <div style="background: #bb22ca;" class="category-color"></div>
       <h2 class="no-underline category-heading">React Hooks</h2>
       <div class="heading-line"></div>
@@ -69,4 +79,14 @@
     </div>
   </div>
   <?php include('tag-tutorials-lists/list-web-development.php') ?>
+</div>
+<div class="row">
+  <div class="col-12 d-flex align-items-center justify-content-between mb-3">
+    <div class="d-flex align-items-center">
+      <div style="background: #19ca10;" class="category-color"></div>
+      <h2 class="no-underline category-heading">Specials</h2>
+      <div class="heading-line"></div>
+    </div>
+  </div>
+  <?php include('tag-tutorials-lists/list-specials.php') ?>
 </div>
