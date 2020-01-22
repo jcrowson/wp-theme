@@ -31,16 +31,17 @@
             </div>
             <div class="links">
                 <a href="https://upmostly.com/tutorials" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'tutorials' });">
-                    <i class="icon-react mr-1 tutorials"></i>
+                    <i class="icon-react mr-2 tutorials"></i>
                     Tutorials
                 </a>
                 <a href="https://upmostly.com/newsletter" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'newsletter' });">
-                    <i class="icon-envelope mr-1 newsletter"></i>
+                    <i class="icon-envelope mr-2 newsletter"></i>
                     Newsletter
                 </a>
-                <a href="https://upmostly.com/about" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'about' });">
-                    <i class="icon-comment mr-1 about"></i>
-                    About
+                <a href="https://upmostly.com/jobs" target="_blank" onClick="gtag('event', 'click', { 'event_category':
+                'navigation', 'event_label': 'jobs' });">
+                    <i class="icon-code mr-2 about"></i>
+                    Jobs
                 </a>
             </div>
             <div class="extra">

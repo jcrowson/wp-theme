@@ -173,7 +173,7 @@ h3 {
     font-size: 1.1rem;
   }
   .author-block img {
-    width: 120px;
+    width: 100px;
   }
   h1 {
     font-size: 1.5rem;
@@ -428,12 +428,15 @@ header {
   width: auto;
   order: 0;
   margin: 0;
+  display: flex;
 }
 
 .nav .links a {
   font-size: 1rem;
   margin-right: .1rem;
   padding: .5rem 1.1rem;
+  display: flex;
+  align-items: center;
 }
 
 .nav .links a:hover {
@@ -520,11 +523,11 @@ header {
 
 @font-face {
   font-family: 'icomoon';
-  src:  url('./fonts/icomoon.eot?byzpwy');
-  src:  url('./fonts/icomoon.eot?byzpwy#iefix') format('embedded-opentype'),
-  url('./fonts/icomoon.ttf?byzpwy') format('truetype'),
-  url('./fonts/icomoon.woff?byzpwy') format('woff'),
-  url('./fonts/icomoon.svg?byzpwy#icomoon') format('svg');
+  src:  url('./fonts/upmostly.eot?byzpwy');
+  src:  url('./fonts/upmostly.eot?byzpwy#iefix') format('embedded-opentype'),
+  url('./fonts/upmostly.ttf?byzpwy') format('truetype'),
+  url('./fonts/upmostly.woff?byzpwy') format('woff'),
+  url('./fonts/upmostly.svg?byzpwy#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -543,19 +546,18 @@ i {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
-
-.icon-comment:before {
-  content: "\e902";
-}
-.icon-envelope:before {
+.icon-code:before {
   content: "\e900";
 }
-.icon-react:before {
+.icon-envelope:before {
   content: "\e901";
+}
+.icon-react:before {
+  content: "\e903";
   color: #61dafb;
 }
 .icon-twitter:before {
-  content: "\ea96";
+  content: "\e902";
 }
 .icon-github:before {
   content: "\eab0";
@@ -650,4 +652,186 @@ i {
 .category-tag a {
   text-decoration: none;
   color: #404040;
+}
+
+/* Jobs */
+
+#wpjb-top-search {
+  background: #ffffff !important;
+  color: #546e7a !important;
+  font-size: 13px !important;
+  clear: both !important;
+  margin: 0 0 12px 0 !important;
+}
+
+#wpjb-top-search ul li {
+  font-size: 12px !important;
+}
+
+.wpjb-cute-input.wpjb-cute-checkbox .wpjb-cute-input-indicator:after {
+  top: 4px !important;
+  left: 7px !important;
+  width: 5px !important;
+  height: 8px !important;
+}
+
+.wpjb-cute-input input:checked ~ .wpjb-cute-input-indicator {
+  background: #404b58 !important;
+}
+
+.wpjb .wpjb-top-header {
+  background: #ffffff !important;
+}
+
+.job-description p {
+  font-size: 1rem !important;
+}
+
+.wpjb .wpjb-text ol li, .wpjb .wpjb-text ul li {
+  font-size: 1rem !important;
+}
+
+.job-save-button, .wpjb-place-order {
+  text-decoration: none;
+  color: white !important;
+}
+
+.wpjb-place-order {
+  display: block;
+  text-align: center;
+}
+
+a#job-previous-button, a#job-save-button, .wpjb-place-order {
+  color: #fff !important;
+  background: #4a2eff -webkit-gradient(linear,left bottom,left top,from(rgba(0,179,136,.001)),to(#3a67fc)) !important;
+  border: none !important;
+  border-radius: 3px !important;
+  box-shadow: 0 3px 0 0 transparent !important;
+  cursor: pointer !important;
+  font-weight: 600 !important;
+  height: 50px !important;
+  line-height: 40px !important;
+  padding: 5px 20px !important;
+  transition: all .234s ease-in-out !important;
+  justify-content: center !important;
+}
+
+a#job-save-button:hover, a#job-previous-button:hover, .wpjb-place-order:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #15317d;
+  box-shadow: 0 3px 0 0 rgba(0,0,0,.03), inset 0 0 0 1px rgb(23, 43, 101);
+}
+
+#wpjb_submit {
+  background: #4a2eff -webkit-gradient(linear,left bottom,left top,from(rgba(0,179,136,.001)),to(#3a67fc));
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 3px 0 0 transparent;
+  color: #fff;
+  cursor: pointer;
+  font-weight: 600;
+  height: 50px;
+  line-height: 40px;
+  padding: 5px 20px;
+  -webkit-transition: all .234s ease-in-out;
+  transition: all .234s ease-in-out;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#wpjb_submit:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #15317d;
+  box-shadow: 0 3px 0 0 rgba(0,0,0,.03), inset 0 0 0 1px rgb(23, 43, 101);
+}
+
+.job-apply-button {
+  background: #00b388 -webkit-gradient(linear,left bottom,left top,from(rgba(0,179,136,.001)),to(#00b388)) !important;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 3px 0 0 transparent;
+  color: #fff !important;
+  cursor: pointer !important;
+  font-weight: 600 !important;
+  height: 50px !important;
+  line-height: 40px !important;
+  padding: 5px 20px !important;
+  -webkit-transition: all .234s ease-in-out;
+  transition: all .234s ease-in-out;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.job-apply-button:hover {
+  color: white;
+  text-decoration: none;
+  background-color: #009571;
+  box-shadow: 0 3px 0 0 rgba(0,0,0,.03), inset 0 0 0 1px rgba(44,173,0,.5);
+}
+
+.job-meta-box .label {
+  margin-bottom: 4px;
+  color: #050c26;
+  font-weight: 500;
+}
+
+.sub-header {
+  font-size: 20px;
+  line-height: 1.4;
+  color: #525769;
+  font-weight: 500;
+}
+
+.jobs-header {
+  top: 0;
+  left: 0;
+  background: transparent;
+  z-index: 999;
+  width: 100%;
+  border: none;
+  font-size: .85rem;
+  position: absolute;
+}
+
+.jobs-header a {
+  color: #ffffff;
+}
+
+.jobs-hero {
+  color: white;
+  background-size: cover !important;
+  background-position: center !important;
+  background: linear-gradient(to top, #1b2d61c9 0%, #21304cd1 100%, #6b8cce 100%, #a2b6df 100%), url(./upmostly-jobs-hero-background.jpg) no-repeat;
+}
+
+.wpjb ul.wpjb-add-job-steps {
+  background: #fff !important;
+}
+
+.wpjb .wpjb-motif-border-bottom {
+  border-bottom-color: #39434f !important;
+}
+
+.wpjb .wpjb-motif-bg {
+  background-color: #3c4753 !important;
+}
+
+.job-heading {
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 1rem 0 .8rem 0;
+  border: none;
+}
+
+.btn-post-a-job {
+  background: #00A896;
+  border: none;
+}
+
+.btn-post-a-job:hover {
+  background: #02776b;
 }
