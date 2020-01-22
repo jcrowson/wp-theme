@@ -691,27 +691,32 @@ i {
   font-size: 1rem !important;
 }
 
-.job-save-button {
+.job-save-button, .wpjb-place-order {
   text-decoration: none;
   color: white !important;
 }
 
-a#job-previous-button, a#job-save-button {
-  color: #fff !important;
-  background: #4a2eff -webkit-gradient(linear,left bottom,left top,from(rgba(0,179,136,.001)),to(#3a67fc));
-  border: none;
-  border-radius: 3px;
-  box-shadow: 0 3px 0 0 transparent;
-  cursor: pointer;
-  font-weight: 600;
-  height: 50px;
-  line-height: 40px;
-  padding: 5px 20px;
-  transition: all .234s ease-in-out;
-  justify-content: center;
+.wpjb-place-order {
+  display: block;
+  text-align: center;
 }
 
-a#job-save-button:hover, a#job-previous-button:hover {
+a#job-previous-button, a#job-save-button, .wpjb-place-order {
+  color: #fff !important;
+  background: #4a2eff -webkit-gradient(linear,left bottom,left top,from(rgba(0,179,136,.001)),to(#3a67fc)) !important;
+  border: none !important;
+  border-radius: 3px !important;
+  box-shadow: 0 3px 0 0 transparent !important;
+  cursor: pointer !important;
+  font-weight: 600 !important;
+  height: 50px !important;
+  line-height: 40px !important;
+  padding: 5px 20px !important;
+  transition: all .234s ease-in-out !important;
+  justify-content: center !important;
+}
+
+a#job-save-button:hover, a#job-previous-button:hover, .wpjb-place-order:hover {
   color: white;
   text-decoration: none;
   background-color: #15317d;
@@ -743,17 +748,17 @@ a#job-save-button:hover, a#job-previous-button:hover {
   box-shadow: 0 3px 0 0 rgba(0,0,0,.03), inset 0 0 0 1px rgb(23, 43, 101);
 }
 
-.job-apply-button, .wpjb-place-order {
-  background: #00b388 -webkit-gradient(linear,left bottom,left top,from(rgba(0,179,136,.001)),to(#00b388));
+.job-apply-button {
+  background: #00b388 -webkit-gradient(linear,left bottom,left top,from(rgba(0,179,136,.001)),to(#00b388)) !important;
   border: none;
   border-radius: 3px;
   box-shadow: 0 3px 0 0 transparent;
   color: #fff !important;
-  cursor: pointer;
-  font-weight: 600;
-  height: 50px;
-  line-height: 40px;
-  padding: 5px 20px;
+  cursor: pointer !important;
+  font-weight: 600 !important;
+  height: 50px !important;
+  line-height: 40px !important;
+  padding: 5px 20px !important;
   -webkit-transition: all .234s ease-in-out;
   transition: all .234s ease-in-out;
   width: 100%;
