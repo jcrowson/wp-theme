@@ -25,7 +25,7 @@
         <nav class="nav">
             <div class="navbar-brand">
                 <a href="https://upmostly.com" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'logo' });">
-                    <img src="https://upmostly.com/wp-content/uploads/upmostly-logo.png" alt="Upmostly Logo" />
+                    <img src="https://upmostly.com/wp-content/uploads/upmostly-logo-v2.png" alt="Upmostly Logo" />
                     <strong>Upmostly</strong>
                 </a>
             </div>
