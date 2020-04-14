@@ -38,10 +38,11 @@
                     <i class="icon-envelope mr-2 newsletter"></i>
                     Newsletter
                 </a>
-                <a href="https://upmostly.com/jobs" target="_blank" onClick="gtag('event', 'click', { 'event_category':
-                'navigation', 'event_label': 'jobs' });">
+                <a href="https://upmostly.com/react-starter-kits" target="_blank" onClick="gtag('event', 'click', {
+                    'event_category':
+                'navigation', 'event_label': 'react-starter-kits' });">
                     <i class="icon-code mr-2 about"></i>
-                    Jobs
+                    Starter Kits
                 </a>
             </div>
             <div class="extra">
