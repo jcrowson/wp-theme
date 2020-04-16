@@ -7,42 +7,40 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1 class="hero-text">Sign In / Sign Up React Starter Kit</h1>
-          <h2 class="pt-0 pb-0 mb-0 no-underline">Everything you need to create beautiful, fully-functional sign in,
-            sign up, and reset password pages in your existing or new React apps.
+          <h1 class="hero-text">Login / Create Account React Starter Kit</h1>
+          <h2 class="pt-0 pb-0 mb-0 no-underline">Fully functional sign-in, sign-up, and reset password pages for
+            your new or existing React apps.
           </h2>
-          <img src="https://via.placeholder.com/800x400" class="figure-img img-fluid mt-4" alt="A generic square
-          placeholder
-          image with rounded corners in a figure.">
+          <img src="https://upmostly.com/wp-content/uploads/sign-in-starter-hero.png" class="figure-img img-fluid mt-4" alt="React starter kit">
         </div>
       </div>
       <div class="row my-5">
         <div class="col-12 col-md-6">
-          <h1 class="hero-text">What's Included</h1>
+          <h1 class="hero-text">📦 What's Included</h1>
           <p>
-            This starter kit provides everything you need to create beautiful sign in, sign up, and
+            This starter kit includes everything you need to create beautiful sign-in, sign-up, and
             reset password pages in your React apps.
           </p>
-          <ul>
-            <li>3 fully functional React Components: LoginForm, CreateAccount, and ForgotPassword.</li>
+          <ul class="mb-5">
+            <li>4 fully functional React Components.</li>
             <li>6 Pre-built templates designed to suit any app style.</li>
-            <li>Built using the latest React best practices: hooks and functional components</li>
-            <li>High quality code that's fully linted.</li>
             <li>Complete React logic and HTML5 form validation.</li>
+            <li>Built using the latest React best practices: hooks and functional components.</li>
             <li>Video tutorials on how to use the code.</li>
             <li>In-depth written documentation.</li>
-            <li>Built using the latest Bootstrap 4.4.1</li>
-            <li>Un-opinionated code that fits into any existing React app</li>
-            <li>Fully Responsive (mobile first)</li>
+            <li>Built using the latest Bootstrap.</li>
+            <li>High-quality code that's fully linted.</li>
+            <li>Flexible code that fits into any React app.</li>
+            <li>Fully Responsive.</li>
           </ul>
-          <button class="btn btn-primary">
+          <a class="starter-kit-button" href="https://gum.co/eBznA">
             Get Starter Kit
-          </button>
+          </a>
         </div>
         <div class="col-12 col-md-6">
-          <img src="https://via.placeholder.com/600x800" class="figure-img img-fluid mt-4" alt="A generic square
-          placeholder
-          image with rounded corners in a figure.">
+          <img src="https://upmostly.com/wp-content/uploads/sign-in-starter-whats-included.png" class="figure-img
+          img-fluid
+          mt-4" alt="react sign in starter kit">
         </div>
       </div>
       <hr />
@@ -50,124 +48,128 @@
         <div class="col-12">
           <h1 class="hero-text">6 Prebuilt Templates Included. Endlessly Customizable!</h1>
           <h2 class="pt-0 pb-0 mb-0 no-underline">
-            Pick from 6 prebuilt, professionally designed sign up flows, integrate easily into your existing or new
-            React app and away you go. Or, customize with an infinite number of possibilities using the component props.
+            Pick from 6 prebuilt, professionally designed sign-up flows that integrate easily into your new or
+            existing React apps. Or, customize with an infinite number of possibilities using the component props.
           </h2>
         </div>
         <div class="col-6">
           <img src="https://upmostly.com/wp-content/uploads/sign-in-starter-split-illustration.jpg" class="figure-img
            img-fluid mt-4" alt="Split Illustration">
-          <button type="button" class="btn btn-link">Preview Split Illustration</button>
+          <a href="http://react-sign-in-sign-up-starter-kit.s3-website-us-east-1.amazonaws.com/?template=splitIllustration" target="_blank" class="btn btn-link">Preview Split Illustration</a>
         </div>
         <div class="col-6">
-          <img src="https://upmostly.com/wp-content/uploads/sign-in-starter-darkmode" class="figure-img img-fluid mt-4" alt="Darkmode Template">
-          <button type="button" class="btn btn-link">Preview Dark Mode</button>
+          <img src="https://upmostly.com/wp-content/uploads/sign-in-starter-darkmode" class="figure-img img-fluid
+          mt-4" alt="Darkmode Template Login Form">
+          <a href="http://react-sign-in-sign-up-starter-kit.s3-website-us-east-1.amazonaws.com/?template=darkmodeLogin"
+             target="_blank" class="btn btn-link">Preview Dark Mode</a>
         </div>
         <div class="col-6">
           <img src="https://upmostly.com/wp-content/uploads/sign-in-starter-split-solid-color-background"
-               class="figure-img
-          img-fluid
-          mt-4" alt="Split Color Background">
-          <button type="button" class="btn btn-link">Preview Split Background Image</button>
+               class="figure-img img-fluid mt-4" alt="Split Color Background">
+          <a href="http://react-sign-in-sign-up-starter-kit.s3-website-us-east-1.amazonaws.com/?template=splitBackgroundImage" target="_blank" class="btn btn-link">Preview Background Image</a>
         </div>
         <div class="col-6">
           <img src="https://upmostly.com/wp-content/uploads/sign-in-starter-split-background-illustration.jpg" class="figure-img
-          img-fluid mt-4" alt="Split Background Illustration">
-          <button type="button" class="btn btn-link">Preview Split Background Illustration</button>
+          img-fluid mt-4" alt="Split Solid Color and Illustration Login Form">
+          <a href="http://react-sign-in-sign-up-starter-kit.s3-website-us-east-1.amazonaws.com/?template=splitSolidColorLoginForm" target="_blank" class="btn btn-link">Preview Solid Color & Illustration</a>
         </div>
         <div class="col-6">
           <img src="https://upmostly.com/wp-content/uploads/sign-in-starter-solid-color.jpg" class="figure-img
-          img-fluid mt-4" alt="Solid Color">
-          <button type="button" class="btn btn-link">Preview Solid Color</button>
+          img-fluid mt-4" alt="Solid Color Login Form">
+          <a href="http://react-sign-in-sign-up-starter-kit.s3-website-us-east-1.amazonaws.com/?template=splitSolidColorBackground" target="_blank" class="btn btn-link">Preview Solid Color</a>
         </div>
         <div class="col-6">
           <img src="https://upmostly.com/wp-content/uploads/sign-in-starter-fullscreen.jpg" class="figure-img
-          img-fluid mt-4" alt="Fullscreen Template">
-          <button type="button" class="btn btn-link">Preview Full Screen</button>
+          img-fluid mt-4" alt="Fullscreen Template Login Form">
+          <a href="http://react-sign-in-sign-up-starter-kit.s3-website-us-east-1.amazonaws.com/?template=fullscreen" target="_blank" class="btn btn-link">Preview Full Screen</a>
         </div>
         <div class="col-12 d-flex justify-content-center mt-4">
-          <button class="btn btn-primary">
+          <a class="starter-kit-button" href="https://gum.co/eBznA">
             Get All Templates
-          </button>
+          </a>
         </div>
       </div>
       <hr />
       <div class="row text-center my-5">
         <div class="col-12">
-          <h1 class="hero-text">3 Fully Functional React Components</h1>
+          <h1 class="hero-text">4 Fully Functional React Components</h1>
           <h2 class="pt-0 pb-0 mb-0 no-underline">
-            3 fully-functional, premium React components, complete with HTML5 form validation. Integrate easily into
-            any existing or new React apps. Just plug them in and away you go!
+            LoginForm, CreateAccountForm, ResetPasswordForm, and BackgroundImage. 4 premium React
+            components, that can integrate easily into
+            any new or existing React apps.
           </h2>
         </div>
-        <div class="col-6 col-lg-4">
-          <img src="https://via.placeholder.com/300x200" class="figure-img img-fluid mt-4" alt="A generic square
+        <div class="col-12 col-lg-4">
+          <img src="https://upmostly.com/wp-content/uploads/sign-in-starter-login-form-preview.jpg" class="figure-img
+          img-fluid mt-4" alt="A generic square
           placeholder
           image with rounded corners in a figure.">
-          <button type="button" class="btn btn-link">Preview Login Form</button>
+          <a href="http://react-sign-in-sign-up-starter-kit.s3-website-us-east-1.amazonaws.com/?template=splitIllustration" target="_blank" class="btn btn-link">Preview Login Form</a>
         </div>
-        <div class="col-6 col-lg-4">
-          <img src="https://via.placeholder.com/300x200" class="figure-img img-fluid mt-4" alt="A generic square
+        <div class="col-12 col-lg-4">
+          <img src="https://upmostly.com/wp-content/uploads/sign-in-starter-create-account-preview.jpg"
+               class="figure-img img-fluid mt-4" alt="A generic square
           placeholder
           image with rounded corners in a figure.">
-          <button type="button" class="btn btn-link">Preview Create Account Form</button>
+          <a href="http://react-sign-in-sign-up-starter-kit.s3-website-us-east-1.amazonaws.com/?template=splitBackgroundImage" target="_blank" class="btn btn-link">Preview Create Account Form</a>
         </div>
-        <div class="col-6 col-lg-4">
-          <img src="https://via.placeholder.com/300x200" class="figure-img img-fluid mt-4" alt="A generic square
+        <div class="col-12 col-lg-4">
+          <img src="https://upmostly.com/wp-content/uploads/sign-in-starter-reset-password-preview.jpg"
+               class="figure-img img-fluid mt-4" alt="A generic square
           placeholder
           image with rounded corners in a figure.">
-          <button type="button" class="btn btn-link">Preview Forgot Password Form</button>
+          <a href="http://react-sign-in-sign-up-starter-kit.s3-website-us-east-1.amazonaws.com/?template=fullscreen"
+             target="_blank" class="btn btn-link">Preview Forgot Password Form</a>
         </div>
         <div class="col-12 d-flex justify-content-center mt-4">
-          <button class="btn btn-primary">
+          <a class="starter-kit-button" href="https://gum.co/eBznA">
             Get Components
-          </button>
+          </a>
         </div>
       </div>
       <hr />
       <div class="row my-5">
         <div class="col-12 text-center">
-          <h1 class="hero-text">Video Tutorials and Written Documentation</h1>
+          <h1 class="hero-text">High Quality Video Tutorials and Expertly Written Documentation</h1>
           <h2 class="pt-0 pb-0 mb-0 no-underline">
-            Help is on the way with video tutorials explaining every detail of the source code. If you're not a
-            visual learner, you'll be happy to know we've also included in-depth written documentation.
+            Help is on the way with expertly produced video tutorials explaining every little detail of the starter kit
+            code. If you're more of a reader, you'll be happy to know we've also included in-depth documentation, too.
           </h2>
         </div>
         <div class="col-12 d-flex justify-content-center">
-          <img src="https://via.placeholder.com/800x400" class="figure-img img-fluid mt-4" alt="A generic square
-          placeholder
-          image with rounded corners in a figure.">
+          <div class="embed-responsive embed-responsive-16by9 mt-5">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Xf9VVMhpnSU" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
       <div class="row my-5">
         <div class="col-12 text-center mb-5">
           <h1 class="hero-text">Get It Now</h1>
           <h2 class="pt-0 pb-0 mb-0 no-underline">
-            Join other React developers saving time by using our React starter kits.
+            Join the countless other React developers who are saving time by using our React starter kits.
           </h2>
         </div>
         <div class="col-12">
           <div class="d-flex justify-content-center align-items-center">
             <div style="width:600px" class="card mb-4 shadow text-center">
-              <div class="card-header">
+              <div class="card-header price-card-header">
                 <h3 class="my-0 font-weight-normal no-underline">🚀 Launch Promo</h3>
               </div>
               <div class="card-body m-4">
                 <h1 class="card-title pricing-card-title">$29
                   <small class="text-muted">/ One time fee</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
-                  <li>3 fully functional React Components</li>
+                  <li>4 fully functional React Components</li>
                   <li>6 Pre-built templates</li>
+                  <li>Complete React logic and HTML5 form validation</li>
                   <li>Built using the latest React best practices</li>
-                  <li>High quality code that's fully linted.</li>
-                  <li>Complete React logic and HTML5 form validation.</li>
-                  <li>Video tutorials on how to use the code.</li>
-                  <li>In-depth written documentation.</li>
+                  <li>High quality code that's fully linted</li>
+                  <li>Video tutorials on how to use the code</li>
+                  <li>In-depth documentation</li>
                   <li>Built using the latest Bootstrap</li>
-                  <li>Un-opinionated code</li>
-                  <li>Fully Responsive (mobile first)</li>
+                  <li>Fully Responsive</li>
                 </ul>
-                <button type="button" class="btn btn-primary btn-lg btn-block">Get Starter Kit</button>
+                <a type="button" class="starter-kit-button" href="https://gum.co/eBznA">Get Starter Kit</a>
               </div>
             </div>
           </div>

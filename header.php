@@ -13,12 +13,12 @@
       gtag('js', new Date());
       gtag('config', 'UA-128624579-1');
     </script>
-    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"7806e537fd7c0d111ed32b4a6","lid":"c4ae659733","uniqueMethods":true}) })</script>
+    <script src="https://gumroad.com/js/gumroad.js"></script>
   </head>
   <body>
     <header>
       <?php
-        if (strpos($_SERVER['REQUEST_URI'], "react-book") === false){
+        if (strpos($_SERVER['REQUEST_URI'], "react-starter-kits") === false){
          include('Components/banner.php');
         }
       ?>
