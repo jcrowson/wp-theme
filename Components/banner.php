@@ -2,11 +2,11 @@
   <span>
     🚀 Premium React Starter Kits <a class="ml-1" href="/react-starter-kits" onClick="gtag('event', 'click', {
         'event_category':
-     'navigation', 'event_label': 'react-starter-kits in banner' });">Now Available!</a>
+     'navigation', 'event_label': 'react-starter-kits banner (A)' });">Now Available!</a>
   </span>
 </div>
 <div class="d-none d-md-flex banner">
   🚀 Bootstrap your React development with premium React Starter Kits! <a class="ml-1" href="/react-starter-kits" onClick="gtag
   ('event', 'click', {
-      'event_category': 'navigation', 'event_label': 'react-starter-kits in banner' });">Now Available</a>
+      'event_category': 'navigation', 'event_label': 'react-starter-kits banner (A)' });">Now Available</a>
 </div>
