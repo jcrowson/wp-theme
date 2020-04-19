@@ -11,7 +11,6 @@
           <h2 class="pt-0 pb-0 mb-0 no-underline">Fully functional sign-in, sign-up, and reset password pages for
             your new or existing React apps.
           </h2>
-          <img src="https://upmostly.com/wp-content/uploads/sign-in-starter-hero.png" class="figure-img img-fluid mt-4" alt="React starter kit">
         </div>
       </div>
       <div class="row my-5">
