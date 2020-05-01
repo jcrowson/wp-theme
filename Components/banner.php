@@ -6,7 +6,8 @@
   </span>
 </div>
 <div class="d-none d-md-flex banner">
-  🚀 Bootstrap your React development with premium React Starter Kits! <a class="ml-1" href="/react-starter-kits" onClick="gtag
+  <span class="badge badge-success mr-1">24 Hour Sale! </span>
+  🚀 Premium React Templates now $11 for 24 hours! <a class="ml-1" href="/react-starter-kits" onClick="gtag
   ('event', 'click', {
-      'event_category': 'navigation', 'event_label': 'react-starter-kits banner (A)' });">Now Available</a>
+      'event_category': 'navigation', 'event_label': 'react-starter-kits banner (A)' });">Get Now</a>
 </div>

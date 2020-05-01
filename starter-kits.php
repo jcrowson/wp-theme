@@ -7,42 +7,20 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1 class="hero-text">Login / Create Account React Starter Kit</h1>
+          <h3 class="text-muted"><span class="badge badge-danger">24 Hour Sale - All Templates $11!</span></h3>
+          <h1 class="hero-text">Login / Create Account React Template</h1>
           <h2 class="pt-0 pb-0 mb-0 no-underline">Fully functional sign-in, sign-up, and reset password pages for
             your new or existing React apps.
           </h2>
         </div>
       </div>
-      <div class="row my-5">
-        <div class="col-12 col-md-6">
-          <h1 class="hero-text">📦 What's Included</h1>
-          <p>
-            This starter kit includes everything you need to create beautiful sign-in, sign-up, and
-            reset password pages in your React apps.
-          </p>
-          <ul class="mb-5">
-            <li>4 fully functional React Components.</li>
-            <li>6 Pre-built templates designed to suit any app style.</li>
-            <li>Complete React logic and HTML5 form validation.</li>
-            <li>Built using the latest React best practices: hooks and functional components.</li>
-            <li>Video tutorials on how to use the code.</li>
-            <li>In-depth written documentation.</li>
-            <li>Built using the latest Bootstrap.</li>
-            <li>High-quality code that's fully linted.</li>
-            <li>Flexible code that fits into any React app.</li>
-            <li>Fully Responsive.</li>
-          </ul>
-          <a class="starter-kit-button" href="https://gum.co/eBznA">
-            Get Starter Kit
-          </a>
-        </div>
-        <div class="col-12 col-md-6">
-          <img src="https://upmostly.com/wp-content/uploads/sign-in-starter-whats-included.png" class="figure-img
-          img-fluid
-          mt-4" alt="react sign in starter kit">
+      <div class="row mt-4">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Xf9VVMhpnSU" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
-      <hr />
       <div class="row text-center my-5">
         <div class="col-12">
           <h1 class="hero-text">6 Prebuilt Templates Included. Endlessly Customizable!</h1>
@@ -86,6 +64,36 @@
           <a class="starter-kit-button" href="https://gum.co/eBznA">
             Get All Templates
           </a>
+        </div>
+      </div>
+      <hr />
+      <div class="row my-5">
+        <div class="col-12 col-md-6">
+          <h1 class="hero-text">📦 What's Included</h1>
+          <p>
+            This starter kit includes everything you need to create beautiful sign-in, sign-up, and
+            reset password pages in your React apps.
+          </p>
+          <ul class="mb-5">
+            <li>4 fully functional React Components.</li>
+            <li>6 Pre-built templates designed to suit any app style.</li>
+            <li>Complete React logic and HTML5 form validation.</li>
+            <li>Built using the latest React best practices: hooks and functional components.</li>
+            <li>Video tutorials on how to use the code.</li>
+            <li>In-depth written documentation.</li>
+            <li>Built using the latest Bootstrap.</li>
+            <li>High-quality code that's fully linted.</li>
+            <li>Flexible code that fits into any React app.</li>
+            <li>Fully Responsive.</li>
+          </ul>
+          <a class="starter-kit-button" href="https://gum.co/eBznA">
+            Get Starter Kit
+          </a>
+        </div>
+        <div class="col-12 col-md-6">
+          <img src="https://upmostly.com/wp-content/uploads/sign-in-starter-whats-included.png" class="figure-img
+          img-fluid
+          mt-4" alt="react sign in starter kit">
         </div>
       </div>
       <hr />
@@ -135,11 +143,6 @@
             code. If you're more of a reader, you'll be happy to know we've also included in-depth documentation, too.
           </h2>
         </div>
-        <div class="col-12 d-flex justify-content-center">
-          <div class="embed-responsive embed-responsive-16by9 mt-5">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Xf9VVMhpnSU" allowfullscreen></iframe>
-          </div>
-        </div>
       </div>
       <div class="row my-5">
         <div class="col-12 text-center mb-5">
@@ -155,7 +158,7 @@
                 <h3 class="my-0 font-weight-normal no-underline">🚀 Launch Promo</h3>
               </div>
               <div class="card-body m-4">
-                <h1 class="card-title pricing-card-title">$29
+                <h1 class="card-title pricing-card-title">$11
                   <small class="text-muted">/ One time fee</small></h1>
                 <ul class="list-unstyled mt-3 mb-4">
                   <li>4 fully functional React Components</li>
