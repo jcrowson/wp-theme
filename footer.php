@@ -16,8 +16,8 @@
               </form>
             </div>
             <div class="col-12 my-3 my-md-0">
-              <a href="https://moneymonster.org">
-                MoneyMonster.org
+              <a href="https://sitesmonster.com">
+                SitesMonster.com
               </a>
               <a class="ml-2" href="/privacy" target="_blank">
               <a href="https://upmostly.com/about" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'about' });">

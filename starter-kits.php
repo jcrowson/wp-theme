@@ -7,18 +7,11 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h3 class="text-muted mt-0"><span class="badge badge-danger">24 Hour Sale - All Templates $11!</span></h3>
-          <h1 class="hero-text">Login / Create Account React Template</h1>
+          <h3 class="text-muted mt-0"><span class="badge badge-danger">24 Hour Sale - Starter Kits $11</span></h3>
+          <h1 class="hero-text">Login / Create Account React Starter Kit</h1>
           <h2 class="pt-0 pb-0 mb-0 no-underline">Fully functional sign-in, sign-up, and reset password pages for
             your new or existing React apps.
           </h2>
-        </div>
-      </div>
-      <div class="row mt-4">
-        <div class="col-12 d-flex justify-content-center">
-          <div class="embed-responsive embed-responsive-16by9">
-            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Xf9VVMhpnSU" allowfullscreen></iframe>
-          </div>
         </div>
       </div>
       <div class="row text-center my-5">
@@ -142,6 +135,13 @@
             Help is on the way with expertly produced video tutorials explaining every little detail of the starter kit
             code. If you're more of a reader, you'll be happy to know we've also included in-depth documentation, too.
           </h2>
+        </div>
+      </div>
+      <div class="row mt-4">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="embed-responsive embed-responsive-16by9">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Xf9VVMhpnSU" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
       <div class="row my-5">

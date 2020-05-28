@@ -56,8 +56,8 @@ $post_tags = get_the_tags();
                 </div>
                 <div class="floating-related-post">
                   <a href="https://upmostly.com/react-starter-kits" onClick="gtag('event', 'click',
-                  {'event_category': 'banner ad', 'event_label': 'Design A' });">
-                    <img style="width: 100%;" src="https://upmostly.com/wp-content/uploads/floating-advert-design-a.jpg" alt="React Starter Kits" />
+                  {'event_category': 'banner ad', 'event_label': 'Design B' });">
+                    <img style="width: 100%;" src="https://upmostly.com/wp-content/uploads/floating-advert-design-b@2x.jpg" alt="React Starter Kits" />
                   </a>
                 </div>
               </div>
