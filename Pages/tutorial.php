@@ -55,9 +55,9 @@ $post_tags = get_the_tags();
                   <div class="text-muted newsletter-small-text">Don't miss the latest React tutorials. No spam, ever. Opt out at any time.</div>
                 </div>
                 <div class="floating-related-post">
-                  <a href="https://upmostly.com/react-starter-kits" onClick="gtag('event', 'click',
-                  {'event_category': 'banner ad', 'event_label': 'Design B' });">
-                    <img style="width: 100%;" src="https://upmostly.com/wp-content/uploads/floating-advert-design-b@2x.jpg" alt="React Starter Kits" />
+                  <a href="https://www.siteground.com/go/0u0ewikzwx" onClick="gtag('event', 'click',
+                  {'event_category': 'banner ad', 'event_label': 'siteground-design-a' });">
+                    <img style="width: 100%;" src="siteground-banner-design-a@2x.jpg" alt="An advert advertising siteground web hosting" />
                   </a>
                 </div>
               </div>
