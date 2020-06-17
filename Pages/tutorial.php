@@ -57,7 +57,7 @@ $post_tags = get_the_tags();
                 <div class="floating-related-post">
                   <a href="https://www.siteground.com/go/0u0ewikzwx" onClick="gtag('event', 'click',
                   {'event_category': 'banner ad', 'event_label': 'siteground-design-a' });">
-                    <img style="width: 100%;" src="siteground-banner-design-a@2x.jpg" alt="An advert advertising siteground web hosting" />
+                    <img style="width: 100%;" src="https://upmostly.com/wp-content/uploads/siteground-banner-design-a@2x.jpg" alt="An advert for siteground web hosting" />
                   </a>
                 </div>
               </div>
