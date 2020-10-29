@@ -31,18 +31,15 @@
             </div>
             <div class="links">
                 <a href="https://upmostly.com/tutorials" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'tutorials' });">
-                    <i class="icon-react mr-2 tutorials"></i>
-                    Tutorials
+                  📝 Tutorials
                 </a>
                 <a href="https://upmostly.com/newsletter" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'newsletter' });">
-                    <i class="icon-envelope mr-2 newsletter"></i>
-                    Newsletter
+                  📪 Newsletter
                 </a>
-                <a href="https://upmostly.com/react-starter-kits" target="_blank" onClick="gtag('event', 'click', {
+                <a href="https://discord.gg/w9DQXPp2tv" target="_blank" onClick="gtag('event', 'click', {
                     'event_category':
-                'navigation', 'event_label': 'react-starter-kits' });">
-                    <i class="icon-code mr-2 about"></i>
-                    Starter Kits
+                'navigation', 'event_label': 'discord link' });">
+                  💬 Discord
                 </a>
             </div>
             <div class="extra">
