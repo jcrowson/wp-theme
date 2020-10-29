@@ -55,10 +55,7 @@ $post_tags = get_the_tags();
                   <div class="text-muted newsletter-small-text">Don't miss the latest React tutorials. No spam, ever. Opt out at any time.</div>
                 </div>
                 <div class="floating-related-post">
-                  <a href="https://www.siteground.com/go/0u0ewikzwx" onClick="gtag('event', 'click',
-                  {'event_category': 'banner ad', 'event_label': 'siteground-design-a' });">
-                    <img style="width: 100%;" src="https://upmostly.com/wp-content/uploads/siteground-banner-design-a@2x.jpg" alt="An advert for siteground web hosting" />
-                  </a>
+                  <!-- Space to add banner on right hand side -->
                 </div>
               </div>
             </div>
