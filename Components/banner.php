@@ -1,13 +1,12 @@
 <div class="d-flex d-md-none banner align-items-center justify-content-center font-sm">
   <span>
-    🚀 Premium React Starter Kits <a class="ml-1" href="/react-starter-kits" onClick="gtag('event', 'click', {
+    🚀 React Discord Server Open <a class="ml-1" href="https://discord.gg/w9DQXPp2tv" onClick="gtag('event', 'click', {
         'event_category':
-     'navigation', 'event_label': 'react-starter-kits banner (A)' });">Now Available!</a>
+     'navigation', 'event_label': 'discord link' });">Join Now!</a>
   </span>
 </div>
 <div class="d-none d-md-flex banner">
-  <span class="badge badge-success mr-1">24 Hour Sale! </span>
-  🚀 Premium React Templates now $11 for 24 hours! <a class="ml-1" href="/react-starter-kits" onClick="gtag
+  🚀 Upmostly React Discord Server is now open! <a class="ml-1" href="https://discord.gg/w9DQXPp2tv" onClick="gtag
   ('event', 'click', {
-      'event_category': 'navigation', 'event_label': 'react-starter-kits banner (A)' });">Get Now</a>
+      'event_category': 'navigation', 'event_label': 'discord link' });">Join Now</a>
 </div>
