@@ -55,7 +55,7 @@ $post_tags = get_the_tags();
                   <div class="text-muted newsletter-small-text">Don't miss the latest React tutorials. No spam, ever. Opt out at any time.</div>
                 </div>
                 <div class="floating-related-post">
-                  <!-- Space to add banner on right hand side -->
+                  <?php include(__DIR__ . '/../Components/most-read-bar.php'); ?>
                 </div>
               </div>
             </div>
