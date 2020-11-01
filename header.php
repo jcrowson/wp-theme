@@ -14,6 +14,7 @@
       gtag('config', 'UA-128624579-1');
     </script>
     <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"7806e537fd7c0d111ed32b4a6","lid":"c4ae659733","uniqueMethods":true}) })</script>
+    <script src="https://kit.fontawesome.com/b1848a22a4.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -39,16 +40,20 @@
                 <a href="https://discord.gg/w9DQXPp2tv" target="_blank" onClick="gtag('event', 'click', {
                     'event_category':
                 'navigation', 'event_label': 'discord link' });">
-                  💬 Discord
+                  <i style="color: mediumpurple; margin-right: 5px;" class="fab fa-discord"></i> Discord
                 </a>
             </div>
             <div class="extra">
                 <a href="https://twitter.com/upmostlyhq" target="_blank" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'twitter' });">
-                    <i class="icon-twitter"></i>
+                  <i class="fab fa-twitter"></i>
                 </a>
-                <a href="https://github.com/upmostly" target="_blank" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'github' });">
-                    <i class="icon-github"></i>
+                <a href="https://discord.gg/w9DQXPp2tv" target="_blank" onClick="gtag('event', 'click', {
+                  'event_category': 'navigation', 'event_label': 'discord invite header top right' });">
+                  <i style="color: mediumpurple" class="fab fa-discord"></i>
                 </a>
+              <a href="https://github.com/upmostly" target="_blank" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'github' });">
+                <i class="fab fa-github"></i>
+              </a>
             </div>
         </nav>
     </header>
