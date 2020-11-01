@@ -20,7 +20,7 @@ $post_tags = get_the_tags();
           <?php
           if ($post_tags) {
             foreach(get_the_tags($post->ID) as $tag) {
-              if ($tag->name !== react) {
+              if ($tag->name !== "react") {
                 echo '<span class="category-tag"><a href="' . get_tag_link($tag->term_id) . '">' . $tag->name . '</a></span>';
               }
             }
