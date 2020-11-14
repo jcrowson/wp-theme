@@ -6,7 +6,7 @@
 <main role="main">
   <section style="padding: 6rem 0 3rem 0;" class="jobs-hero text-center">
     <div class="container container-small">
-      <h1>Over 65,000 React and JavaScript Developers visit Upmostly every month</h1>
+      <h1>Over 160,000 React and JavaScript Developers visit Upmostly every month</h1>
       <h5>Post a new job listing on Upmostly today and reach a vast audience of JavaScript and React developers.</h5>
     </div>
   </section>

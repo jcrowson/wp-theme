@@ -5,11 +5,8 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 text-center">
-          <h1 class="hero-text">Oops!</h1>
+          <h1 class="hero-text">We can't find the page you're looking for...</h1>
           <img class="card-img-top" style="width: 350px" src="<?= get_bloginfo('wpurl') . '/wp-content/uploads/404.jpg'?>" alt="Person looking unhappy">
-          <h3 class="pt-0">
-            404 - PAGE NOT FOUND
-          </h3>
           <p>
             We're ever so sorry, but the page you're looking for has gone the way of the React Class Component. <strong>Extinct</strong>.
           </p>

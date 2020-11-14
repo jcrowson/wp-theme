@@ -6,8 +6,8 @@
 <main role="main">
   <section style="padding: 6rem 0 3rem 0;" class="jobs-hero text-center">
     <div class="container container-small">
-      <h1>Jobs for React & JavaScript Developers</h1>
-      <h5>Find your next React position at some of the world’s best tech companies.</h5>
+      <h1>React & JavaScript Jobs</h1>
+      <h5>Find your next JavaScript or React job at some of the world’s best tech companies</h5>
     </div>
   </section>
 

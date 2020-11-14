@@ -30,7 +30,7 @@
       </a>
     </div>
     <?php if($is_button_shown) : ?>
-      <a href="jobs/post-a-job" role="button" class="btn btn-success btn-post-a-job">Post a Job</a>
+      <a href="jobs/post-a-job" role="button" class="btn btn-success btn-post-a-job">📝 Post a Job</a>
     <?php endif; ?>
   </nav>
 </header>

@@ -614,7 +614,12 @@ header {
 
 /* Jobs */
 
+.wpjb .wpjb-grid .wpjb-col-main {
+  width: 100% !important;
+}
+
 #wpjb-top-search {
+  padding: 0 !important;
   background: #ffffff !important;
   color: #546e7a !important;
   font-size: 13px !important;
@@ -686,7 +691,7 @@ a#job-save-button:hover, a#job-previous-button:hover, .wpjb-place-order:hover {
   border: none;
   border-radius: 3px;
   box-shadow: 0 3px 0 0 transparent;
-  color: #fff;
+  color: #fff !important;
   cursor: pointer;
   font-weight: 600;
   height: 50px;

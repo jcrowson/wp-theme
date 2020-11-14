@@ -6,8 +6,8 @@
   <section style="padding: 3rem 0 .2rem 0;" class="jobs-hero text-center">
     <div class="container container-small">
       <h2 class="job-heading">
-        Find your next React position at some of the best companies on the planet. There's no sign-up
-        process, just apply directly.
+        Find your next JavaScript or React job at some of the best companies on the planet.
+        There's no sign-up process. Apply directly.
       </h2>
     </div>
   </section>
