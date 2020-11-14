@@ -37,10 +37,10 @@
                 <a href="https://upmostly.com/newsletter" onClick="gtag('event', 'click', { 'event_category': 'navigation', 'event_label': 'newsletter' });">
                   📪 Newsletter
                 </a>
-                <a href="https://discord.gg/w9DQXPp2tv" target="_blank" onClick="gtag('event', 'click', {
+                <a href="https://upmostly.com/jobs" target="_blank" onClick="gtag('event', 'click', {
                     'event_category':
-                'navigation', 'event_label': 'discord link' });">
-                  <i style="color: mediumpurple; margin-right: 5px;" class="fab fa-discord"></i> Discord
+                'navigation', 'event_label': 'jobs link' });">
+                  💸 Jobs
                 </a>
             </div>
             <div class="extra">
