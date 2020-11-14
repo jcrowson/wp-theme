@@ -783,6 +783,10 @@ a#job-save-button:hover, a#job-previous-button:hover, .wpjb-place-order:hover {
   background-color: #3c4753 !important;
 }
 
+.wpjb-input.wpjb-input-type-half.wpjb-input-type-half-left.wpjb-input.wpjb-input-type-full {
+  display: none;
+}
+
 .job-heading {
   font-weight: 400;
   font-size: 1rem;

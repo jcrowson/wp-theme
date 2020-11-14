@@ -25,17 +25,17 @@
     return '';
   }
 
-//  add_filter("wpjb_scheme", "my_wpjb_scheme", 10, 2);
-//
-//  function my_wpjb_scheme($scheme, $object) {
-//    if(isset($object->meta->custom_url)) {
-//      $scheme["field"]["salary"]["render_callback"] = "my_render_salary";
-//    }
-//    if(isset($object->meta->apply_url)) {
-//      $scheme["field"]["apply_url"]["render_callback"] = "my_render_apply_url";
-//    }
-//    return $scheme;
-//  }
+  add_filter("wpjb_scheme", "my_wpjb_scheme", 10, 2);
+
+  function my_wpjb_scheme($scheme, $object) {
+    if(isset($object->meta->custom_url)) {
+      $scheme["field"]["salary"]["render_callback"] = "my_render_salary";
+    }
+    if(isset($object->meta->apply_url)) {
+      $scheme["field"]["apply_url"]["render_callback"] = "my_render_apply_url";
+    }
+    return $scheme;
+  }
 
   function upmostly_jobs_render_salary($object) {
 
@@ -131,8 +131,3 @@
       echo $apply_url;
     }
   }
-
-add_filter("wpjb_export_max_memory", "my_wpjb_export_max_memory");
-function my_wpjb_export_max_memory($max) {
-  return 64;
-}
